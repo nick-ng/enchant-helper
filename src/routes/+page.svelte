@@ -11,7 +11,7 @@
 	const STORAGE_KEY_ENCHANT_BASES = 'PUX_ENCHANT_BASES';
 	// const STORAGE_KEY_STASH_SIZE = 'PUX_ENCHANT_TAB_SIZE';
 
-	let enchantBases: EnchantBase[] = [{ name: '', tradeLink: '', note: '' }];
+	let enchantBases: EnchantBase[] = [{ name: '', tradeLink: '', imageUrl: '' }];
 
 	const chunkBases = (enchantBases: EnchantBase[], chunkSize: number) => {
 		let result = [];
@@ -49,7 +49,7 @@
 		<div class="basis-prose">
 			<button
 				on:click={() => {
-					enchantBases = enchantBases.concat([{ name: '', tradeLink: '', note: '' }]);
+					enchantBases = enchantBases.concat([{ name: '', tradeLink: '', imageUrl: '' }]);
 
 					saveEnchantBases(enchantBases);
 				}}>Add Base</button
@@ -94,9 +94,9 @@
 								<td>
 									<input
 										type="text"
-										value={enchantBase.note}
+										value={enchantBase.imageUrl}
 										on:input={(e) => {
-											enchantBase.note = e.currentTarget.value;
+											enchantBase.imageUrl = e.currentTarget.value;
 
 											saveEnchantBases(enchantBases);
 										}}
@@ -125,10 +125,10 @@
 				<div class="grid grid-cols-6 grid-rows-6 mb-2">
 					{#each enchantChunk as enchantBase}
 						<a class="block border-default w-20 h-20" target="_blank" href={enchantBase.tradeLink}>
-							{#if enchantBase.note}
+							{#if enchantBase.imageUrl}
 								<img
 									class="object-cover"
-									src={enchantBase.note}
+									src={enchantBase.imageUrl}
 									alt={enchantBase.name}
 									title={enchantBase.name}
 								/>

@@ -3,7 +3,7 @@ import z from 'zod';
 export const enchantBaseSchema = z.object({
 	name: z.string(),
 	tradeLink: z.string(),
-	note: z.string()
+	imageUrl: z.string()
 });
 
 export type EnchantBase = z.infer<typeof enchantBaseSchema>;
