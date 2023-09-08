@@ -4,7 +4,10 @@
 	import { enchants } from './raw-enchant-data';
 	import { getUniquesUrl, getIlvl86Url, getBlizzardCrownUrl } from './utils';
 
-	let imageBase64: string = '';
+	const STORAGE_KEY_LAB_NOTES_BASE64 = 'PUX_LAB_NOTES_BASE64';
+	const STORAGE_KEY_LAB_POI_BASE64 = 'PUX_LAB_POI_BASE64';
+
+	let imageBase64 = '';
 	let text = '';
 	let status = 'Paste an image (Ctrl + v) or';
 	let matchingEnchants: {
@@ -13,6 +16,9 @@
 		order: number;
 	}[] = [];
 	let manualSearchString = '';
+
+	let labNotesBase64 = '';
+	let labPoIBase64 = '';
 
 	$: manualMatches = manualSearchString
 		? enchants
@@ -24,6 +30,18 @@
 		: [];
 
 	onMount(() => {
+		const temp1 = localStorage.getItem(STORAGE_KEY_LAB_NOTES_BASE64);
+
+		if (temp1) {
+			labNotesBase64 = temp1;
+		}
+
+		const temp2 = localStorage.getItem(STORAGE_KEY_LAB_POI_BASE64);
+
+		if (temp2) {
+			labPoIBase64 = temp2;
+		}
+
 		document.onpaste = async (event) => {
 			const items = event.clipboardData?.items;
 
@@ -133,6 +151,49 @@
 			{/if}
 		</div>
 	</div>
+	<details open={!!(labNotesBase64 || labPoIBase64)}>
+		<summary>Extra</summary>
+		<div>
+			<button
+				on:click={() => {
+					if (!imageBase64) {
+						return;
+					}
+
+					labNotesBase64 = imageBase64;
+					localStorage.setItem(STORAGE_KEY_LAB_NOTES_BASE64, labNotesBase64);
+				}}>Set as Lab Notes</button
+			>
+			<button
+				on:click={() => {
+					if (!imageBase64) {
+						return;
+					}
+
+					labPoIBase64 = imageBase64;
+					localStorage.setItem(STORAGE_KEY_LAB_POI_BASE64, labPoIBase64);
+				}}>Set as Points of Interest</button
+			>
+			{#if labNotesBase64}
+				<img class="max-w-4xl" src={labNotesBase64} alt="Custom 1" />
+				<button
+					on:click={() => {
+						labNotesBase64 = '';
+						localStorage.setItem(STORAGE_KEY_LAB_NOTES_BASE64, '');
+					}}>Delete Lab Notes</button
+				>
+			{/if}
+			{#if labPoIBase64}
+				<img class="max-w-4xl" src={labPoIBase64} alt="Custom 2" />
+				<button
+					on:click={() => {
+						labPoIBase64 = '';
+						localStorage.setItem(STORAGE_KEY_LAB_POI_BASE64, '');
+					}}>Delete Points of Interest</button
+				>
+			{/if}
+		</div>
+	</details>
 	<p>Searching {enchants.length} enchants</p>
 	<div class="max-w-prose">
 		<h2>Instructions</h2>
