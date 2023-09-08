@@ -2,14 +2,28 @@
 	const segment = document.querySelector('.item-overview');
 
 	const anchors = [...segment.getElementsByTagName('a')].map((a) => ({
-		href: encodeURIComponent(a.href),
+		href: a.href,
 		text: a.textContent
 	}));
 
 	const myLink = document.createElement('a');
 
-	myLink.href = `data:text/json;charset=utf-8,${JSON.stringify(anchors)}`;
-	myLink.download = 'test.json';
+	const tempEnchants = [];
+
+	let tempEnchantText = '';
+	for (let i = 0; i < anchors.length; i++) {
+		if (anchors[i].href.startsWith('https://www.pathofexile.com/trade')) {
+			tempEnchants.push({
+				enchantText: tempEnchantText,
+				poeTradeUrl: encodeURIComponent(anchors[i].href)
+			});
+		} else {
+			tempEnchantText = anchors[i].text;
+		}
+	}
+
+	myLink.href = `data:text/json;charset=utf-8,${JSON.stringify(tempEnchants)}`;
+	myLink.download = `enchants-${Date.now()}.json`;
 
 	myLink.click();
 })();
