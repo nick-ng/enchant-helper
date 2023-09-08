@@ -16,13 +16,9 @@
 	const chunkBases = (enchantBases: EnchantBase[], chunkSize: number) => {
 		let result = [];
 
-		console.log('enchantBases', enchantBases);
-
 		for (let i = 0; i < enchantBases.length; i += chunkSize) {
 			result.push(enchantBases.slice(i, i + chunkSize));
 		}
-
-		console.log('result', result);
 
 		return result;
 	};
@@ -44,7 +40,7 @@
 </script>
 
 <div>
-	<h1 class="mt-1">Enchant Helper</h1>
+	<h1 class="mt-1">Enchant Bases</h1>
 	<div class="flex flex-row justify-start mt-2">
 		<div class="basis-prose">
 			<button
