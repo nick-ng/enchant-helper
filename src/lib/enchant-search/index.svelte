@@ -130,18 +130,16 @@
 					<tbody>
 						{#each [...manualMatches, ...matchingEnchants] as e}
 							<tr>
-								<td class="px-1 border-default max-w-xs"
-									><a class="no-underline" href={e.poeTradeUrl} target="_blank">{e.enchantText}</a
-									></td
+								<td class="px-1 border-default max-w-xs">{e.enchantText}</td>
+								<td class="px-1 border-default"
+									><a href={getUniquesUrl(e.poeTradeUrl)} target="uniqueBase">Uniques</a></td
 								>
 								<td class="px-1 border-default"
-									><a href={getUniquesUrl(e.poeTradeUrl)} target="_blank">Uniques</a></td
+									><a href={getIlvl86Url(e.poeTradeUrl)} target="ilvl85Base">ilvl 85+</a></td
 								>
 								<td class="px-1 border-default"
-									><a href={getIlvl86Url(e.poeTradeUrl)} target="_blank">ilvl 85+</a></td
-								>
-								<td class="px-1 border-default"
-									><a href={getBlizzardCrownUrl(e.poeTradeUrl)} target="_blank">Blizzard Crown</a
+									><a href={getBlizzardCrownUrl(e.poeTradeUrl)} target="blizzardCrownBase"
+										>Blizzard Crown</a
 									></td
 								>
 							</tr>
