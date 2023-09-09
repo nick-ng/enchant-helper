@@ -120,7 +120,7 @@
 				<h3>Tab {i + 1}</h3>
 				<div class="grid grid-cols-6 grid-rows-6 mb-2">
 					{#each enchantChunk as enchantBase}
-						<a class="block border-default w-20 h-20" target="_blank" href={enchantBase.tradeLink}>
+						<a class="block border-default w-20 h-20" target="buybase" href={enchantBase.tradeLink}>
 							{#if enchantBase.imageUrl}
 								<img
 									class="object-cover"
