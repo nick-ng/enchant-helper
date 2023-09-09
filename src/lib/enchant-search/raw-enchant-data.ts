@@ -144,10 +144,15 @@ export const enchants = [
 		poeTradeUrl:
 			'https://www.pathofexile.com/trade/search/Ancestor?q={%22query%22:{%22filters%22:{},%22stats%22:[{%22type%22:%22and%22,%22filters%22:[{%22id%22:%22enchant.stat_2085855914%22,%22value%22:{%22min%22:40,%22max%22:40}}]}]}}'
 	},
+	// {
+	// 	enchantText: 'Hatred has 30% increased Mana Reservation Efficiency',
+	// 	poeTradeUrl:
+	// 		'https://www.pathofexile.com/trade/search/Ancestor?q={%22query%22:{%22filters%22:{},%22stats%22:[{%22type%22:%22and%22,%22filters%22:[{%22id%22:%22enchant.stat_1920370417%22,%22value%22:{%22min%22:30,%22max%22:30}}]}]}}'
+	// },
 	{
 		enchantText: 'Hatred has 30% increased Mana Reservation Efficiency',
 		poeTradeUrl:
-			'https://www.pathofexile.com/trade/search/Ancestor?q={%22query%22:{%22filters%22:{},%22stats%22:[{%22type%22:%22and%22,%22filters%22:[{%22id%22:%22enchant.stat_1920370417%22,%22value%22:{%22min%22:30,%22max%22:30}}]}]}}'
+			'https://www.pathofexile.com/trade/search/Ancestor?q=%7B%22query%22%3A%7B%22filters%22%3A%7B%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22count%22%2C%22value%22%3A%7B%22min%22%3A1%7D%2C%22filters%22%3A%5B%7B%22id%22%3A%22enchant.stat_1920370417%22%2C%22value%22%3A%7B%22min%22%3A30%2C%22max%22%3A30%7D%7D%2C%7B%22id%22%3A%22enchant.stat_2156140483%22%2C%22value%22%3A%7B%22min%22%3A30%2C%22max%22%3A30%7D%7D%5D%7D%5D%7D%7D'
 	},
 	{
 		enchantText: 'Purity of Elements has 30% increased Mana Reservation Efficiency',
@@ -6303,5 +6308,10 @@ export const enchants = [
 		enchantText: 'Volcanic Fissure deals 25% increased Damage',
 		poeTradeUrl:
 			'https://www.pathofexile.com/trade/search/Ancestor?q={%22query%22:{%22filters%22:{},%22stats%22:[{%22type%22:%22and%22,%22filters%22:[{%22id%22:%22enchant.stat_1124690737%22,%22value%22:{%22min%22:25,%22max%22:25}}]}]}}'
+	},
+	{
+		enchantText: '36% to Stone Golem Elemental Resistances',
+		poeTradeUrl:
+			'https://www.pathofexile.com/trade/search/Ancestor?q=%7B%22query%22%3A%7B%22filters%22%3A%7B%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22count%22%2C%22value%22%3A%7B%22min%22%3A1%7D%2C%22filters%22%3A%5B%7B%22id%22%3A%22enchant.stat_1601558321%22%2C%22value%22%3A%7B%22min%22%3A36%2C%22max%22%3A36%7D%7D%5D%7D%5D%7D%7D'
 	}
 ];
