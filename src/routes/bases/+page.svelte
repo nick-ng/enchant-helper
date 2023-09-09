@@ -1,17 +1,6 @@
 <script lang="ts">
 	import type { EnchantBase } from '$lib/schemas';
-	import { onMount } from 'svelte';
-	import z from 'zod';
-	import {
-		enchantBaseSchema,
-		// optionsSchema,
-		jsonSafeParseS
-	} from '$lib/schemas';
-
-	const STORAGE_KEY_ENCHANT_BASES = 'PUX_ENCHANT_BASES';
-	// const STORAGE_KEY_STASH_SIZE = 'PUX_ENCHANT_TAB_SIZE';
-
-	let enchantBases: EnchantBase[] = [{ name: '', tradeLink: '', imageUrl: '' }];
+	import { enchantBasesStore } from '$lib/stores/enchant-bases';
 
 	const chunkBases = (enchantBases: EnchantBase[], chunkSize: number) => {
 		let result = [];
@@ -22,21 +11,6 @@
 
 		return result;
 	};
-
-	const saveEnchantBases = (enchantBases: EnchantBase[]) => {
-		localStorage.setItem(STORAGE_KEY_ENCHANT_BASES, JSON.stringify(enchantBases));
-	};
-
-	onMount(() => {
-		const result1 = jsonSafeParseS(
-			z.array(enchantBaseSchema),
-			localStorage.getItem(STORAGE_KEY_ENCHANT_BASES)
-		);
-
-		if (result1.success) {
-			enchantBases = result1.data;
-		}
-	});
 </script>
 
 <div>
@@ -45,12 +19,12 @@
 		<div class="basis-prose">
 			<button
 				on:click={() => {
-					enchantBases = enchantBases.concat([{ name: '', tradeLink: '', imageUrl: '' }]);
-
-					saveEnchantBases(enchantBases);
+					enchantBasesStore.update((previousEnchantBases) => {
+						return previousEnchantBases.concat([{ name: '', tradeLink: '', imageUrl: '' }]);
+					});
 				}}>Add Base</button
 			>
-			{#if enchantBases.length > 0}
+			{#if $enchantBasesStore.length > 0}
 				<table>
 					<thead>
 						<tr>
@@ -62,7 +36,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each enchantBases as enchantBase, i}
+						{#each $enchantBasesStore as enchantBase, i}
 							<tr>
 								<td class="text-right">{i + 1}</td>
 								<td>
@@ -70,9 +44,11 @@
 										type="text"
 										value={enchantBase.name}
 										on:input={(e) => {
-											enchantBase.name = e.currentTarget.value;
+											enchantBasesStore.update((previousEnchantBases) => {
+												previousEnchantBases[i].name = e.currentTarget.value;
 
-											saveEnchantBases(enchantBases);
+												return previousEnchantBases;
+											});
 										}}
 									/>
 								</td>
@@ -81,9 +57,11 @@
 										type="text"
 										value={enchantBase.tradeLink}
 										on:input={(e) => {
-											enchantBase.tradeLink = e.currentTarget.value;
+											enchantBasesStore.update((previousEnchantBases) => {
+												previousEnchantBases[i].tradeLink = e.currentTarget.value;
 
-											saveEnchantBases(enchantBases);
+												return previousEnchantBases;
+											});
 										}}
 									/>
 								</td>
@@ -92,9 +70,11 @@
 										type="text"
 										value={enchantBase.imageUrl}
 										on:input={(e) => {
-											enchantBase.imageUrl = e.currentTarget.value;
+											enchantBasesStore.update((previousEnchantBases) => {
+												previousEnchantBases[i].imageUrl = e.currentTarget.value;
 
-											saveEnchantBases(enchantBases);
+												return previousEnchantBases;
+											});
 										}}
 									/>
 								</td>
@@ -102,9 +82,9 @@
 									<button
 										on:click={() => {
 											if (confirm(`Are you sure you want to remove ${enchantBase.name}?`)) {
-												enchantBases = enchantBases.filter((_, ii) => ii !== i);
-
-												saveEnchantBases(enchantBases);
+												enchantBasesStore.update((previousEnchantBases) => {
+													return previousEnchantBases.filter((_, ii) => ii !== i);
+												});
 											}
 										}}>🗑️</button
 									>
@@ -116,7 +96,7 @@
 			{/if}
 		</div>
 		<div class="ml-4">
-			{#each chunkBases(enchantBases, 36) as enchantChunk, i}
+			{#each chunkBases($enchantBasesStore, 36) as enchantChunk, i}
 				<h3>Tab {i + 1}</h3>
 				<div class="grid grid-cols-6 grid-rows-6 mb-2">
 					{#each enchantChunk as enchantBase}
