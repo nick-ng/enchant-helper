@@ -159,7 +159,8 @@
 							dateSold
 						}
 					])
-					.sort((a, b) => new Date(b.dateSold).valueOf() - new Date(a.dateSold).valueOf());
+					.sort((a, b) => new Date(a.dateSold).valueOf() - new Date(b.dateSold).valueOf())
+					.reverse();
 			});
 
 			manualSearchString = '';
@@ -242,6 +243,11 @@
 							<button
 								type="button"
 								on:click={() => {
+									manualSearchString = enchantSale.enchantText;
+									enchantBase = enchantSale.enchantBase;
+									priceInput = `${enchantSale.priceDivine} d`;
+									dateSoldInput = formatDateForInput(new Date(enchantSale.dateSold));
+
 									enchantSalesStore.update((previousSales) => {
 										return previousSales.filter((_, ii) => i !== ii);
 									});
