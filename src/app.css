@@ -82,6 +82,10 @@
 		@apply border border-gray-300;
 	}
 
+	.border-subtle {
+		@apply border border-gray-600;
+	}
+
 	.markdown td,
 	.markdown th {
 		@apply border-default px-2;

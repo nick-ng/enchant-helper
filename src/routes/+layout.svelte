@@ -7,6 +7,7 @@
 		<nav class="flex flex-col mx-2 my-4">
 			<a href="/">Enchant Search</a>
 			<a href="/bases">Bases</a>
+			<a href="/sales">Sales</a>
 			<a href="/dev">Dev</a>
 		</nav>
 		<div class="mx-1">
