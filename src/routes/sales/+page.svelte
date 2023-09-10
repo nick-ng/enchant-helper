@@ -1,4 +1,6 @@
 <script lang="ts">
+	import z from 'zod';
+	import { enchantBaseSchema, enchantSaleSchema } from '$lib/schemas';
 	import { enchantBasesStore } from '$lib/stores/enchant-bases';
 	import { enchantSalesStore } from '$lib/stores/enchant-sales';
 	import { enchants } from '$lib/enchant-search/raw-enchant-data';
@@ -53,7 +55,7 @@
 			.reduce((accumulator, current) => accumulator + current.priceDivine, 0)
 			.toFixed(2)} d
 	</div>
-	<label
+	<label class="mt-1"
 		><span>Chaos per Divine:</span>
 		<input
 			type="number"
@@ -63,6 +65,77 @@
 			}}
 		/></label
 	>
+	<div class="mt-1">
+		<a
+			class="inline-block button-default no-underline text-white"
+			href={`data:text/json;charset=utf-8,${JSON.stringify(
+				{
+					sales: $enchantSalesStore,
+					bases: $enchantBasesStore
+				},
+				null,
+				'  '
+			)}`}
+			download={`enchants_${formatDateForInput(new Date(), true)}.json`
+				.replaceAll(/:/g, '')
+				.replaceAll(/[^a-z0-9-.]+/gi, '_')}
+		>
+			Export
+		</a>
+		<label class="button-default inline-block cursor-pointer relative">
+			Import
+			<input
+				class="w-0 opacity-0 text-sm text-left block absolute top-0 left-0"
+				type="file"
+				accept=".json"
+				on:change={async (event) => {
+					if (event.currentTarget.files) {
+						for (const file of [...event.currentTarget.files]) {
+							try {
+								const message = [];
+
+								const temp = JSON.parse(await file.text());
+
+								const basesResult = z.array(enchantBaseSchema).safeParse(temp?.bases);
+
+								if (basesResult.success) {
+									message.push('bases');
+								}
+
+								const salesResult = z.array(enchantSaleSchema).safeParse(temp?.sales);
+
+								if (salesResult.success) {
+									message.push('sales');
+								}
+
+								if (
+									confirm(
+										`Load ${message.join(' and ')} from file? Any existing ${message.join(
+											' or '
+										)} will be lost.`
+									)
+								) {
+									if (basesResult.success) {
+										enchantBasesStore.set(basesResult.data);
+									}
+
+									if (salesResult.success) {
+										enchantSalesStore.set(salesResult.data);
+									}
+								}
+							} catch (e) {
+								if (e instanceof z.ZodError) {
+									console.error(`${file.name} doesn't contain an army`);
+								} else {
+									console.error(`Error when loading ${file.name}`);
+								}
+							}
+						}
+					}
+				}}
+			/>
+		</label>
+	</div>
 	<form
 		on:submit={() => {
 			const tempEnchantBase = enchantBase !== 'Custom' ? enchantBase : customEnchantBase;
@@ -132,7 +205,7 @@
 						</div>
 					</td>
 					<td class="border-subtle">
-						<select class="block w-full" bind:value={enchantBase}>
+						<select class="w-full" bind:value={enchantBase}>
 							<option value="">Choose a base</option>
 							<option value="Lab Service">Lab Service</option>
 							<option value="Custom">Custom</option>
