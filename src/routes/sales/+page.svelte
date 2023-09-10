@@ -237,7 +237,7 @@
 						<td class="border-subtle px-1" colspan="2">{enchantSale.enchantBase}</td>
 						<td
 							class={`text-right border-subtle px-1 ${
-								enchantSale.priceDivine < 1 ? 'text-gray-300' : 'text-white'
+								enchantSale.priceDivine < 1 ? 'text-gray-300' : 'text-lime-300'
 							}`}
 							>{enchantSale.priceDivine < 1
 								? `${Math.round(enchantSale.priceDivine * chaosPerDivine)} c`
