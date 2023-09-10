@@ -14,6 +14,15 @@ export const optionsSchema = z.object({
 
 export type Options = z.infer<typeof optionsSchema>;
 
+export const enchantSaleSchema = z.object({
+	enchantText: z.string(),
+	enchantBase: z.string(),
+	priceDivine: z.number(),
+	dateSold: z.string().datetime({ offset: true })
+});
+
+export type EnchantSale = z.infer<typeof enchantSaleSchema>;
+
 export const jsonSafeParse = (str?: string | null) => {
 	if (!str) {
 		return {

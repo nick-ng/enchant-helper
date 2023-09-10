@@ -14,6 +14,7 @@
 	body,
 	input[type='text'],
 	input[type='number'],
+	input[type='date'],
 	select,
 	textarea,
 	.opaque {
@@ -22,6 +23,7 @@
 
 	input[type='text'],
 	input[type='number'],
+	input[type='date'],
 	select,
 	textarea {
 		@apply rounded border px-0.5 border-gray-500;

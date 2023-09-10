@@ -1,3 +1,5 @@
+import type { EnchantSale } from '$lib/schemas';
+
 export const getUniquesUrl = (poeTradeUrl: string) => {
 	try {
 		const tradeUrlObject = new URL(poeTradeUrl);
@@ -93,4 +95,46 @@ export const getBlizzardCrownUrl = (poeTradeUrl: string) => {
 	} catch (_e) {
 		return poeTradeUrl;
 	}
+};
+
+export const groupSalesByBase = (
+	enchantSales: EnchantSale[],
+	enchantText: string
+): { [enchantBase: string]: { averagePrice: number; sales: EnchantSale[] } } => {
+	const salesByBase: { [enchantBase: string]: { averagePrice: number; sales: EnchantSale[] } } = {};
+
+	const matchingSales = enchantSales.filter((s) => s.enchantText === enchantText);
+
+	matchingSales.forEach((sale) => {
+		const { enchantBase } = sale;
+
+		if (!salesByBase[enchantBase]) {
+			salesByBase[enchantBase] = { sales: [], averagePrice: 0 };
+		}
+
+		salesByBase[enchantBase].sales.push(sale);
+	});
+
+	Object.keys(salesByBase).forEach((enchantBase) => {
+		let totalWeight = 0;
+		let totalDivinesAndWeight = 0;
+
+		salesByBase[enchantBase].sales.forEach((sale) => {
+			const weight = 1 / (new Date().valueOf() - new Date(sale.dateSold).valueOf());
+
+			totalWeight += weight;
+			totalDivinesAndWeight += sale.priceDivine * weight;
+		});
+
+		salesByBase[enchantBase].averagePrice = totalDivinesAndWeight / totalWeight;
+	});
+
+	return salesByBase;
+};
+
+export const formatDateForInput = (date: Date): string => {
+	return `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart(2, '0')}-${date
+		.getDate()
+		.toString()
+		.padStart(2, '0')}`;
 };

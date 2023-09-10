@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { processImage } from '$lib/ocr';
+	import { enchantSalesStore } from '$lib/stores/enchant-sales';
 	import { enchants } from './raw-enchant-data';
-	import { getUniquesUrl, getIlvl86Url, getBlizzardCrownUrl } from './utils';
+	import { getUniquesUrl, getIlvl86Url, getBlizzardCrownUrl, groupSalesByBase } from './utils';
+	import AddSale from './add-sale.svelte';
 
 	const STORAGE_KEY_LAB_NOTES_BASE64 = 'PUX_LAB_NOTES_BASE64';
 	const STORAGE_KEY_LAB_POI_BASE64 = 'PUX_LAB_POI_BASE64';
@@ -126,9 +128,12 @@
 						<th class="px-1 border-default">Uniques</th>
 						<th class="px-1 border-default">ilvl 85+</th>
 						<th class="px-1 border-default">Blizzard Crown</th>
+						<th class="px-1 border-default">Past Sales (Div)</th>
+						<th class="px-1 border-default">Add Sale</th>
 					</thead>
 					<tbody>
 						{#each [...manualMatches, ...matchingEnchants] as e}
+							{@const thisEnchantSales = groupSalesByBase($enchantSalesStore, e.enchantText)}
 							<tr>
 								<td class="px-1 border-default max-w-xs">{e.enchantText}</td>
 								<td class="px-1 border-default"
@@ -142,6 +147,27 @@
 										>Blizzard Crown</a
 									></td
 								>
+								<td class="px-1 border-default"
+									><ul class="ml-4 list-disc">
+										{#each Object.entries(thisEnchantSales).sort((a, b) => b[1].averagePrice - a[1].averagePrice) as thisBase}
+											<li>
+												{thisBase[1].sales.length}× {thisBase[0]}: {thisBase[1].averagePrice.toFixed(
+													2
+												)} d
+											</li>
+										{/each}
+									</ul></td
+								>
+								<td class="px-1 border-default">
+									<AddSale
+										enchantText={e.enchantText}
+										onSubmit={(newSale) => {
+											enchantSalesStore.update((previousEnchantSales) => {
+												return previousEnchantSales.concat([newSale]);
+											});
+										}}
+									/>
+								</td>
 							</tr>
 						{/each}
 					</tbody>
