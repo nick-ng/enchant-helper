@@ -39,7 +39,10 @@
 	$: priceDivine = parsePriceString(priceInput, chaosPerDivine);
 
 	onMount(() => {
-		chaosPerDivine = parseFloat(localStorage.getItem(STORAGE_KEY_CHAOS_PER_DIVINE) || '0');
+		const temp = localStorage.getItem(STORAGE_KEY_CHAOS_PER_DIVINE);
+		if (typeof temp === 'string') {
+			chaosPerDivine = parseFloat(temp || '0');
+		}
 	});
 </script>
 
@@ -85,6 +88,12 @@
 					])
 					.sort((a, b) => new Date(a.dateSold).valueOf() - new Date(b.dateSold).valueOf());
 			});
+
+			manualSearchString = '';
+			enchantText = '';
+			priceInput = '';
+			enchantBase = '';
+			customEnchantBase = '';
 		}}
 	>
 		<table>
@@ -127,7 +136,7 @@
 							<option value="">Choose a base</option>
 							<option value="Lab Service">Lab Service</option>
 							<option value="Custom">Custom</option>
-							{#each $enchantBasesStore as enchantBase}
+							{#each [...$enchantBasesStore].sort( (a, b) => a.name.localeCompare(b.name) ) as enchantBase}
 								<option value={enchantBase.name}>{enchantBase.name}</option>
 							{/each}
 						</select>
