@@ -67,14 +67,10 @@
 	<div class="mt-1">
 		<a
 			class="inline-block button-default no-underline text-white"
-			href={`data:text/json;charset=utf-8,${JSON.stringify(
-				{
-					sales: $enchantSalesStore,
-					bases: $enchantBasesStore
-				},
-				null,
-				'  '
-			)}`}
+			href={`data:text/json;charset=utf-8,${JSON.stringify({
+				sales: $enchantSalesStore,
+				bases: $enchantBasesStore
+			})}`}
 			download={`enchants_${formatDateForInput(new Date(), true)}.json`
 				.replaceAll(/:/g, '')
 				.replaceAll(/[^a-z0-9-.]+/gi, '_')}
