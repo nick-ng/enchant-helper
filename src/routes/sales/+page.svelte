@@ -159,7 +159,7 @@
 							dateSold
 						}
 					])
-					.sort((a, b) => new Date(a.dateSold).valueOf() - new Date(b.dateSold).valueOf());
+					.sort((a, b) => new Date(b.dateSold).valueOf() - new Date(a.dateSold).valueOf());
 			});
 
 			manualSearchString = '';
