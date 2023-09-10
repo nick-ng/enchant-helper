@@ -19,10 +19,10 @@
 		if (!priceString) {
 			return 0;
 		}
-		const chaosMatch = priceString.match(/(\d+) ?c/);
+		const chaosMatch = priceString.match(/(\d+) *c/);
 		const chaos = parseFloat(chaosMatch?.[1] || '0');
 
-		const divineMatch = priceString.match(/(\d+) ?d/);
+		const divineMatch = priceString.match(/(\d+) *d/);
 		const divine = parseFloat(divineMatch?.[1] || '0');
 
 		return divine + chaos / chaosPerDivine;
@@ -44,6 +44,12 @@
 </script>
 
 <div>
+	<h1>Sales</h1>
+	<div>
+		Total sales: {$enchantSalesStore
+			.reduce((accumulator, current) => accumulator + current.priceDivine, 0)
+			.toFixed(2)} d
+	</div>
 	<label
 		><span>Chaos per Divine:</span>
 		<input
@@ -54,7 +60,6 @@
 			}}
 		/></label
 	>
-	<div>{priceDivine}</div>
 	<form
 		on:submit={() => {
 			const tempEnchantBase = enchantBase !== 'Custom' ? enchantBase : customEnchantBase;
@@ -133,14 +138,14 @@
 					<td class="border-subtle">
 						<input class="text-right" type="text" bind:value={priceInput} />
 					</td>
-					<td class="border-subtle"
-						><input type="date" bind:value={dateSoldInput} /><button
+					<td class="border-subtle">
+						<input type="date" bind:value={dateSoldInput} /><button
 							type="button"
 							on:click={() => {
 								dateSoldInput = formatDateForInput(new Date());
 							}}>Today</button
-						></td
-					>
+						>
+					</td>
 					<td><button>Add</button></td>
 				</tr>
 				{#each $enchantSalesStore as enchantSale, i}
@@ -151,6 +156,7 @@
 						<td class="border-subtle px-1">{formatDateForInput(new Date(enchantSale.dateSold))}</td>
 						<td class="border-subtle px-1">
 							<button
+								type="button"
 								on:click={() => {
 									enchantSalesStore.update((previousSales) => {
 										return previousSales.filter((_, ii) => i !== ii);
