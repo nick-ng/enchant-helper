@@ -228,7 +228,7 @@
 							}}>Today</button
 						>
 					</td>
-					<td><button>Add</button></td>
+					<td class="border-subtle"><button>Add</button></td>
 				</tr>
 				{#each $enchantSalesStore as enchantSale, i}
 					<tr>
