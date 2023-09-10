@@ -161,7 +161,9 @@
 					<tr>
 						<td class="border-subtle px-1">{enchantSale.enchantText}</td>
 						<td class="border-subtle px-1" colspan="2">{enchantSale.enchantBase}</td>
-						<td class="text-right border-subtle px-1">{enchantSale.priceDivine} d</td>
+						<td class="text-right border-subtle px-1"
+							>{Math.round(enchantSale.priceDivine * 100) / 100} d</td
+						>
 						<td class="border-subtle px-1">{formatDateForInput(new Date(enchantSale.dateSold))}</td>
 						<td class="border-subtle px-1">
 							<button
