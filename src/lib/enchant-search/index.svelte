@@ -3,8 +3,13 @@
 	import { processImage } from '$lib/ocr';
 	import { enchantSalesStore } from '$lib/stores/enchant-sales';
 	import { enchants } from './raw-enchant-data';
-	import { getUniquesUrl, getIlvl86Url, getBlizzardCrownUrl, groupSalesByBase } from './utils';
-	import AddSale from './add-sale.svelte';
+	import {
+		getUniquesUrl,
+		getIlvl86Url,
+		getBlizzardCrownUrl,
+		groupSalesByBase,
+		STORAGE_KEY_CHAOS_PER_DIVINE
+	} from './utils';
 
 	const STORAGE_KEY_LAB_NOTES_BASE64 = 'PUX_LAB_NOTES_BASE64';
 	const STORAGE_KEY_LAB_POI_BASE64 = 'PUX_LAB_POI_BASE64';
@@ -18,6 +23,7 @@
 		order: number;
 	}[] = [];
 	let manualSearchString = '';
+	let chaosPerDivine = 230;
 
 	let labNotesBase64 = '';
 	let labPoIBase64 = '';
@@ -42,6 +48,12 @@
 
 		if (temp2) {
 			labPoIBase64 = temp2;
+		}
+
+		const temp3 = localStorage.getItem(STORAGE_KEY_CHAOS_PER_DIVINE);
+
+		if (typeof temp3 === 'string') {
+			chaosPerDivine = parseFloat(temp3 || '0');
 		}
 
 		document.onpaste = async (event) => {
@@ -128,8 +140,7 @@
 						<th class="px-1 border-default">Uniques</th>
 						<th class="px-1 border-default">ilvl 85+</th>
 						<th class="px-1 border-default">Blizzard Crown</th>
-						<th class="px-1 border-default">Past Sales (Div)</th>
-						<th class="px-1 border-default">Add Sale</th>
+						<th class="px-1 border-default">Past Sales</th>
 					</thead>
 					<tbody>
 						{#each [...manualMatches, ...matchingEnchants] as e}
@@ -151,23 +162,20 @@
 									><ul class="ml-4 list-disc">
 										{#each Object.entries(thisEnchantSales).sort((a, b) => b[1].averagePrice - a[1].averagePrice) as thisBase}
 											<li>
-												{thisBase[1].sales.length}× {thisBase[0]}: {thisBase[1].averagePrice.toFixed(
-													2
-												)} d
+												{thisBase[1].sales.length}× {thisBase[0]}:
+												{#if thisBase[1].averagePrice < 1}
+													<span class="text-gray-300"
+														>{Math.round(thisBase[1].averagePrice * chaosPerDivine)} c</span
+													>
+												{:else}
+													<span class="text-lime-300"
+														>{Math.round(thisBase[1].averagePrice * 100) / 100} d</span
+													>
+												{/if}
 											</li>
 										{/each}
 									</ul></td
 								>
-								<td class="px-1 border-default">
-									<AddSale
-										enchantText={e.enchantText}
-										onSubmit={(newSale) => {
-											enchantSalesStore.update((previousEnchantSales) => {
-												return previousEnchantSales.concat([newSale]);
-											});
-										}}
-									/>
-								</td>
 							</tr>
 						{/each}
 					</tbody>

@@ -4,10 +4,8 @@
 	import { enchantBasesStore } from '$lib/stores/enchant-bases';
 	import { enchantSalesStore } from '$lib/stores/enchant-sales';
 	import { enchants } from '$lib/enchant-search/raw-enchant-data';
-	import { formatDateForInput } from '$lib/enchant-search/utils';
+	import { formatDateForInput, STORAGE_KEY_CHAOS_PER_DIVINE } from '$lib/enchant-search/utils';
 	import { onMount } from 'svelte';
-
-	const STORAGE_KEY_CHAOS_PER_DIVINE = 'PUX_CHAOS_PER_DIVINE';
 
 	let manualSearchString = '';
 	let enchantText = '';
@@ -42,6 +40,7 @@
 
 	onMount(() => {
 		const temp = localStorage.getItem(STORAGE_KEY_CHAOS_PER_DIVINE);
+
 		if (typeof temp === 'string') {
 			chaosPerDivine = parseFloat(temp || '0');
 		}

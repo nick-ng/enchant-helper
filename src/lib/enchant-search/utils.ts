@@ -1,5 +1,7 @@
 import type { EnchantSale } from '$lib/schemas';
 
+export const STORAGE_KEY_CHAOS_PER_DIVINE = 'PUX_CHAOS_PER_DIVINE';
+
 export const getUniquesUrl = (poeTradeUrl: string) => {
 	try {
 		const tradeUrlObject = new URL(poeTradeUrl);
