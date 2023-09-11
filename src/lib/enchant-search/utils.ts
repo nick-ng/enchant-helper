@@ -108,7 +108,7 @@ export const groupSalesByBase = (
 	const matchingSales = enchantSales.filter((s) => s.enchantText === enchantText);
 
 	matchingSales.forEach((sale) => {
-		const { enchantBase } = sale;
+		const enchantBase = sale.enchantBase.trim();
 
 		if (!salesByBase[enchantBase]) {
 			salesByBase[enchantBase] = { sales: [], averagePrice: 0 };
