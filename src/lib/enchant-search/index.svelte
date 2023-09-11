@@ -118,7 +118,7 @@
 </script>
 
 <div>
-	<h1 class="mt-1">Enchant Search</h1>
+	<h1>Enchant Search</h1>
 	<div class="flex flex-row">
 		<div class="mr-2">
 			{#if imageBase64}
