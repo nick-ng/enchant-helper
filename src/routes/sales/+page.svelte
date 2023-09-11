@@ -48,7 +48,7 @@
 </script>
 
 <div>
-	<h1>Sales</h1>
+	<h1>Enchant Sales</h1>
 	<div>
 		Total sales: {$enchantSalesStore
 			.reduce((accumulator, current) => accumulator + current.priceDivine, 0)
@@ -171,21 +171,21 @@
 					<th>Enchant</th>
 					<th>Base</th>
 					<th>Custom</th>
-					<th class="text-right">Price</th>
+					<th>Price</th>
 					<th>Date</th>
 					<th>🗑</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td class="border-subtle">
+					<td class="border-subtle relative">
 						<input class="block w-full" type="text" bind:value={manualSearchString} />
-						<div>
-							{#if manualSearchString !== enchantText}
+						{#if manualSearchString !== enchantText}
+							<div class="absolute top-8 left-0 flex flex-col items-stretch border-subtle">
 								{#each manualMatches.slice(0, 10) as m}
-									<label class="max-w-prose block break-normal">
+									<label class="max-w-prose break-normal bg-gray-800 px-1 py-1">
 										<button
-											class="mt-1 hover:bg-gray-700"
+											class="hover:bg-gray-700"
 											type="button"
 											on:click={() => {
 												enchantText = m.enchantText;
@@ -194,11 +194,11 @@
 										>
 									</label>
 								{/each}
-							{/if}
-							{#if manualMatches.length > 10}
-								<div>+{manualMatches.length - 10} more</div>
-							{/if}
-						</div>
+								{#if manualMatches.length > 10}
+									<div class="pb-1 px-1 bg-gray-800">+{manualMatches.length - 10} more</div>
+								{/if}
+							</div>
+						{/if}
 					</td>
 					<td class="border-subtle">
 						<select class="w-full" bind:value={enchantBase}>
@@ -214,15 +214,15 @@
 						<input type="text" bind:value={customEnchantBase} />
 					</td>
 					<td class="border-subtle">
-						<input class="text-right" type="text" bind:value={priceInput} />
+						<input class="text-right w-20" type="text" bind:value={priceInput} />
 					</td>
 					<td class="border-subtle">
-						<input type="date" bind:value={dateSoldInput} /><button
+						<button
 							type="button"
 							on:click={() => {
 								dateSoldInput = formatDateForInput(new Date());
 							}}>Today</button
-						>
+						><input type="date" bind:value={dateSoldInput} />
 					</td>
 					<td class="border-subtle"><button>Add</button></td>
 				</tr>
@@ -238,7 +238,9 @@
 								? `${Math.round(enchantSale.priceDivine * chaosPerDivine)} c`
 								: `${Math.round(enchantSale.priceDivine * 100) / 100} d`}</td
 						>
-						<td class="border-subtle px-1">{formatDateForInput(new Date(enchantSale.dateSold))}</td>
+						<td class="border-subtle px-1 text-right"
+							>{formatDateForInput(new Date(enchantSale.dateSold))}</td
+						>
 						<td class="border-subtle px-1">
 							<button
 								type="button"

@@ -14,7 +14,7 @@
 </script>
 
 <div>
-	<h1 class="mt-1">Enchant Bases</h1>
+	<h1>Enchant Bases</h1>
 	<div class="flex flex-row justify-start mt-2">
 		<div class="basis-prose">
 			<button
