@@ -23,6 +23,14 @@ export const enchantSaleSchema = z.object({
 
 export type EnchantSale = z.infer<typeof enchantSaleSchema>;
 
+export const enchantDatumSchema = z.object({
+	enchantText: z.string(),
+	ids: z.array(z.string()),
+	value: z.number()
+});
+
+export type EnchantDatum = z.infer<typeof enchantDatumSchema>;
+
 export const jsonSafeParse = (str?: string | null) => {
 	if (!str) {
 		return {

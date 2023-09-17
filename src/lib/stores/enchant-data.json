@@ -1,0 +1,3307 @@
+[
+	{
+		"enchantText": "\\d{1,9}% Chance on Frenzy to gain an additional Frenzy Charge",
+		"ids": ["enchant.stat_4243904146"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% chance to Avoid being Stunned while Channelling Snipe",
+		"ids": ["enchant.stat_3024408350"],
+		"value": 50
+	},
+	{
+		"enchantText": "\\d{1,9}% chance to create an additional Animate Weapon copy",
+		"ids": ["enchant.stat_3711386843"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% Chance to gain a Power Charge on Critical Strike with Ice Spear",
+		"ids": ["enchant.stat_3232905239"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% Chance to gain an additional Power Charge on Kill with Power Siphon",
+		"ids": ["enchant.stat_3609207587"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% chance to Summon an additional Skeleton with Summon Skeletons",
+		"ids": ["enchant.stat_1040958896"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Absolution Cast Speed",
+		"ids": ["enchant.stat_2558170600"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Alchemist's Mark Curse Effect",
+		"ids": ["enchant.stat_3583185303"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ambush Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2977107166"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ancestral Protector Totem Placement Speed",
+		"ids": ["enchant.stat_592861938"],
+		"value": 18
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ancestral Warchief Totem Area of Effect",
+		"ids": ["enchant.stat_3320271130"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ancestral Warchief Totem Damage",
+		"ids": ["enchant.stat_78239163"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Animate Weapon Duration",
+		"ids": ["enchant.stat_3338074370"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Arc Damage",
+		"ids": ["enchant.stat_2740567252"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Assassin's Mark Curse Effect",
+		"ids": ["enchant.stat_1961975107"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Attack Speed with Snipe",
+		"ids": ["enchant.stat_2513745555"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ball Lightning Area of Effect",
+		"ids": ["enchant.stat_788307702"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ball Lightning Damage",
+		"ids": ["enchant.stat_3152812191"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Barrage Attack Speed",
+		"ids": ["enchant.stat_2523298357"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Barrage Damage",
+		"ids": ["enchant.stat_3685345485"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Battlemage's Cry Buff Effect",
+		"ids": ["enchant.stat_2426838124"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bear Trap Damage",
+		"ids": ["enchant.stat_1877863115"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Flurry Area of Effect",
+		"ids": ["enchant.stat_2746213081"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Flurry Damage",
+		"ids": ["enchant.stat_754797886"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Trap Area of Effect",
+		"ids": ["enchant.stat_1502095380"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Trap Damage",
+		"ids": ["enchant.stat_3676486210"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Vortex Area of Effect",
+		"ids": ["enchant.stat_2748553775"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Vortex Duration",
+		"ids": ["enchant.stat_3024867180"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blade Vortex Spell Damage",
+		"ids": ["enchant.stat_4221797807"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bladefall Area of Effect",
+		"ids": ["enchant.stat_2413715772"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bladefall Critical Strike Chance",
+		"ids": ["enchant.stat_2833482311"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bladefall Damage",
+		"ids": ["enchant.stat_3069740560"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blight Area of Effect",
+		"ids": ["enchant.stat_2511915418"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Blight Damage",
+		"ids": ["enchant.stat_1623552446"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bodyswap Cast Speed",
+		"ids": ["enchant.stat_397438226"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bodyswap Damage",
+		"ids": ["enchant.stat_341054435"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Bone Offering Duration",
+		"ids": ["enchant.stat_1607493537"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Boneshatter Damage",
+		"ids": ["enchant.stat_2384264970"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Boneshatter Stun Duration",
+		"ids": ["enchant.stat_2742093846"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Burning Arrow Damage",
+		"ids": ["enchant.stat_696995312"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Caustic Arrow Area of Effect",
+		"ids": ["enchant.stat_3854556792"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Caustic Arrow Damage",
+		"ids": ["enchant.stat_1496334795"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Caustic Arrow Duration",
+		"ids": ["enchant.stat_387490713"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Charged Dash Damage",
+		"ids": ["enchant.stat_1265055278"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cleave Area of Effect",
+		"ids": ["enchant.stat_3172519570"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cleave Attack Speed",
+		"ids": ["enchant.stat_3106577499"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cleave Damage",
+		"ids": ["enchant.stat_1359058534"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cold Snap Area of Effect",
+		"ids": ["enchant.stat_3371538704"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cold Snap Damage",
+		"ids": ["enchant.stat_3729006707"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Conductivity Curse Effect",
+		"ids": ["enchant.stat_3395908304"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Conductivity Duration",
+		"ids": ["enchant.stat_819890745"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Contagion Area of Effect",
+		"ids": ["enchant.stat_1056396846"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Contagion Damage",
+		"ids": ["enchant.stat_277116504"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Contagion Duration",
+		"ids": ["enchant.stat_2565809961"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Convocation Buff Effect",
+		"ids": ["enchant.stat_2054059315"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Corrupting Fever Duration",
+		"ids": ["enchant.stat_3529090048"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Creeping Frost Area of Effect",
+		"ids": ["enchant.stat_3816022821"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Creeping Frost Damage",
+		"ids": ["enchant.stat_2846773529"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Creeping Frost Duration",
+		"ids": ["enchant.stat_3804575865"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cremation Cast Speed",
+		"ids": ["enchant.stat_2938856716"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cremation Damage",
+		"ids": ["enchant.stat_4175469673"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cyclone Attack Speed",
+		"ids": ["enchant.stat_835592326"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Cyclone Damage",
+		"ids": ["enchant.stat_1454162553"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dark Pact Area of Effect",
+		"ids": ["enchant.stat_957864706"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dark Pact Cast Speed",
+		"ids": ["enchant.stat_1549594869"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dark Pact Damage",
+		"ids": ["enchant.stat_1573799461"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Decoy Totem Area of Effect",
+		"ids": ["enchant.stat_1686675991"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Decoy Totem Life",
+		"ids": ["enchant.stat_1631824124"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Despair Curse Effect",
+		"ids": ["enchant.stat_3185156108"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Despair Duration",
+		"ids": ["enchant.stat_683073695"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Destructive Link Duration",
+		"ids": ["enchant.stat_728213819"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Detonate Dead Area of Effect",
+		"ids": ["enchant.stat_482660590"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Detonate Dead Damage",
+		"ids": ["enchant.stat_3087527696"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Devouring Totem Leech per second",
+		"ids": ["enchant.stat_3317752680"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Discharge Damage",
+		"ids": ["enchant.stat_1935930829"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Double Strike Attack Speed",
+		"ids": ["enchant.stat_2779309910"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Double Strike Critical Strike Chance",
+		"ids": ["enchant.stat_1201942540"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Double Strike Damage",
+		"ids": ["enchant.stat_1809965314"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dual Strike Attack Speed",
+		"ids": ["enchant.stat_1917107304"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dual Strike Critical Strike Chance",
+		"ids": ["enchant.stat_2729530556"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Dual Strike Damage",
+		"ids": ["enchant.stat_2094069860"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Earthquake Area of Effect",
+		"ids": ["enchant.stat_684174846"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Earthquake Damage",
+		"ids": ["enchant.stat_1697080607"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of Curses applied by Bane",
+		"ids": ["enchant.stat_2843908086"],
+		"value": 10
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Carrion Golems",
+		"ids": ["enchant.stat_2420972973"],
+		"value": 150
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Chaos Golems",
+		"ids": ["enchant.stat_1648511635"],
+		"value": 100
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Flame Golems",
+		"ids": ["enchant.stat_269930125"],
+		"value": 150
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Ice Golems",
+		"ids": ["enchant.stat_2250111474"],
+		"value": 150
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Lightning Golems",
+		"ids": ["enchant.stat_2527931375"],
+		"value": 150
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Effect of the Buff granted by your Stone Golems",
+		"ids": ["enchant.stat_2284801675"],
+		"value": 150
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Elemental Hit Attack Speed",
+		"ids": ["enchant.stat_1151217691"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Elemental Weakness Curse Effect",
+		"ids": ["enchant.stat_3348324479"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Elemental Weakness Duration",
+		"ids": ["enchant.stat_2690620076"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Enfeeble Curse Effect",
+		"ids": ["enchant.stat_3293830776"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Enfeeble Duration",
+		"ids": ["enchant.stat_516587640"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Essence Drain Damage",
+		"ids": ["enchant.stat_3469967347"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Essence Drain Duration",
+		"ids": ["enchant.stat_3698833303"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ethereal Knives Damage",
+		"ids": ["enchant.stat_3514973342"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ethereal Knives Projectile Speed",
+		"ids": ["enchant.stat_760994068"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Explosive Concoction Area of Effect",
+		"ids": ["enchant.stat_4100281103"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Explosive Concoction Damage",
+		"ids": ["enchant.stat_383710904"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Exsanguinate Duration",
+		"ids": ["enchant.stat_292721070"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Eye of Winter Damage",
+		"ids": ["enchant.stat_1015388938"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Eye of Winter Projectile Speed",
+		"ids": ["enchant.stat_1739537617"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Fire Trap Burning Damage",
+		"ids": ["enchant.stat_345703394"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Fire Trap Burning Ground Duration",
+		"ids": ["enchant.stat_3279786746"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Fire Trap Damage",
+		"ids": ["enchant.stat_181307038"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Fireball Cast Speed",
+		"ids": ["enchant.stat_2231403318"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Fireball Damage",
+		"ids": ["enchant.stat_2600498881"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Firestorm Damage",
+		"ids": ["enchant.stat_2201904285"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Firestorm Duration",
+		"ids": ["enchant.stat_1691710359"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Firestorm explosion Area of Effect",
+		"ids": ["enchant.stat_3931013900"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flame Dash Damage",
+		"ids": ["enchant.stat_3013068851"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flame Link Duration",
+		"ids": ["enchant.stat_3996051430"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flame Surge Critical Strike Chance",
+		"ids": ["enchant.stat_1030003515"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flame Surge Damage",
+		"ids": ["enchant.stat_1491182794"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flame Surge Damage with Hits and Ailments against Burning Enemies",
+		"ids": ["enchant.stat_430890565"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flameblast Area of Effect",
+		"ids": ["enchant.stat_1532964880"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flameblast Critical Strike Chance",
+		"ids": ["enchant.stat_3053448465"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flameblast Damage",
+		"ids": ["enchant.stat_169405468"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flammability Curse Effect",
+		"ids": ["enchant.stat_282417259"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flammability Duration",
+		"ids": ["enchant.stat_2166622264"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flesh Offering Duration",
+		"ids": ["enchant.stat_101788216"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flicker Strike Damage",
+		"ids": ["enchant.stat_464448327"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Flicker Strike Damage per Frenzy Charge",
+		"ids": ["enchant.stat_3701991680"],
+		"value": 9
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Forbidden Rite Damage",
+		"ids": ["enchant.stat_3383175526"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Forbidden Rite Projectile Speed",
+		"ids": ["enchant.stat_3316480899"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Freezing Pulse Cast Speed",
+		"ids": ["enchant.stat_1894493605"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Freezing Pulse Damage",
+		"ids": ["enchant.stat_819852672"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Freezing Pulse Projectile Speed",
+		"ids": ["enchant.stat_2003026405"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frenzy Damage",
+		"ids": ["enchant.stat_522780692"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frenzy Damage per Frenzy Charge",
+		"ids": ["enchant.stat_1255310381"],
+		"value": 9
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frost Blades Damage",
+		"ids": ["enchant.stat_3449510470"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frost Blades Projectile Speed",
+		"ids": ["enchant.stat_1087923932"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frost Bomb Area of Effect",
+		"ids": ["enchant.stat_1451372148"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frost Bomb Damage",
+		"ids": ["enchant.stat_2380598805"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frost Wall Duration",
+		"ids": ["enchant.stat_775034903"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frostbite Curse Effect",
+		"ids": ["enchant.stat_1443215722"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frostbite Duration",
+		"ids": ["enchant.stat_1783696476"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frostbolt Cast Speed",
+		"ids": ["enchant.stat_4231484190"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Frostbolt Damage",
+		"ids": ["enchant.stat_2078274993"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Galvanic Arrow Damage",
+		"ids": ["enchant.stat_2634945088"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Glacial Cascade Area of Effect",
+		"ids": ["enchant.stat_88796379"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Glacial Cascade Damage",
+		"ids": ["enchant.stat_451037529"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Glacial Hammer Damage",
+		"ids": ["enchant.stat_2732675053"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ground Slam Area of Effect",
+		"ids": ["enchant.stat_3061969105"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ground Slam Damage",
+		"ids": ["enchant.stat_108883700"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Heavy Strike Attack Speed",
+		"ids": ["enchant.stat_343849491"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Heavy Strike Damage",
+		"ids": ["enchant.stat_954135826"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Herald of Ash Damage",
+		"ids": ["enchant.stat_767884542"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Herald of Ice Damage",
+		"ids": ["enchant.stat_3910961021"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Herald of Thunder Damage",
+		"ids": ["enchant.stat_558298545"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Crash Area of Effect",
+		"ids": ["enchant.stat_3930497977"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Crash Damage",
+		"ids": ["enchant.stat_1794090421"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Nova Area of Effect",
+		"ids": ["enchant.stat_68809719"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Nova Damage",
+		"ids": ["enchant.stat_1086309398"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Shot Area of Effect",
+		"ids": ["enchant.stat_1962401751"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Shot Damage",
+		"ids": ["enchant.stat_3026752303"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Spear Critical Strike Chance in second form",
+		"ids": ["enchant.stat_3510848926"],
+		"value": 300
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Trap Area of Effect",
+		"ids": ["enchant.stat_3367298564"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Ice Trap Damage",
+		"ids": ["enchant.stat_4224384031"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Immortal Call Duration",
+		"ids": ["enchant.stat_1336543283"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Incinerate Damage",
+		"ids": ["enchant.stat_2246425134"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Incinerate Damage for each stage",
+		"ids": ["enchant.stat_4151555126"],
+		"value": 10
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Infernal Blow Area of Effect",
+		"ids": ["enchant.stat_4031295671"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Infernal Blow Damage",
+		"ids": ["enchant.stat_242838571"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Intuitive Link Duration",
+		"ids": ["enchant.stat_3545503197"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Kinetic Blast Area of Effect",
+		"ids": ["enchant.stat_1660758870"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Kinetic Blast Damage",
+		"ids": ["enchant.stat_1007135105"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lacerate Area of Effect",
+		"ids": ["enchant.stat_3854723321"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lacerate Critical Strike Chance",
+		"ids": ["enchant.stat_578067404"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lacerate Damage",
+		"ids": ["enchant.stat_1844721010"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Leap Slam Area of Effect",
+		"ids": ["enchant.stat_3367800526"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Leap Slam Attack Speed",
+		"ids": ["enchant.stat_3730999759"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Leap Slam Damage",
+		"ids": ["enchant.stat_3850775143"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Arrow Area of Effect",
+		"ids": ["enchant.stat_4129421630"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Arrow Damage",
+		"ids": ["enchant.stat_2896672990"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Spire Trap Throwing Speed",
+		"ids": ["enchant.stat_1978232370"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Strike Damage",
+		"ids": ["enchant.stat_3630274354"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Tendrils Area of Effect",
+		"ids": ["enchant.stat_1230050013"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Tendrils Critical Strike Chance",
+		"ids": ["enchant.stat_12756171"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Tendrils Damage",
+		"ids": ["enchant.stat_39356080"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Trap Damage",
+		"ids": ["enchant.stat_3131492956"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Trap Lightning Ailment Effect",
+		"ids": ["enchant.stat_4210927948"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Warp Cast Speed",
+		"ids": ["enchant.stat_1347575155"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Lightning Warp Damage",
+		"ids": ["enchant.stat_209345940"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Manabond Area of Effect",
+		"ids": ["enchant.stat_441455463"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Manabond Damage",
+		"ids": ["enchant.stat_1609869231"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Molten Strike Area of Effect",
+		"ids": ["enchant.stat_2524620107"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Molten Strike Damage",
+		"ids": ["enchant.stat_2038865857"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Orb of Storms Area of Effect",
+		"ids": ["enchant.stat_2875508213"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Orb of Storms Critical Strike Chance",
+		"ids": ["enchant.stat_168538372"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Phase Run Duration",
+		"ids": ["enchant.stat_2556095677"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Poacher's Mark Curse Effect",
+		"ids": ["enchant.stat_3278819254"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Poisonous Concoction Area of Effect",
+		"ids": ["enchant.stat_3892584986"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Poisonous Concoction Damage",
+		"ids": ["enchant.stat_295557151"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Power Siphon Attack Speed",
+		"ids": ["enchant.stat_2753191013"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Power Siphon Damage",
+		"ids": ["enchant.stat_78767457"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Protective Link Duration",
+		"ids": ["enchant.stat_3917923501"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Puncture Damage",
+		"ids": ["enchant.stat_3496292484"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Puncture Duration",
+		"ids": ["enchant.stat_3186938438"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Punishment Curse Effect",
+		"ids": ["enchant.stat_2844206732"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Punishment Duration",
+		"ids": ["enchant.stat_1924239636"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rage Vortex Area of Effect",
+		"ids": ["enchant.stat_3988628118"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rage Vortex Damage",
+		"ids": ["enchant.stat_3153431030"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rain of Arrows Area of Effect",
+		"ids": ["enchant.stat_2205814812"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rain of Arrows Attack Speed",
+		"ids": ["enchant.stat_3825617457"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rain of Arrows Damage",
+		"ids": ["enchant.stat_3432170876"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rallying Cry Buff Effect",
+		"ids": ["enchant.stat_4147277532"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Reap Area of Effect",
+		"ids": ["enchant.stat_647221668"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Reave Damage",
+		"ids": ["enchant.stat_862824495"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Reave Radius",
+		"ids": ["enchant.stat_1486490067"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Reckoning Damage",
+		"ids": ["enchant.stat_308326229"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rejuvenation Totem Aura Effect",
+		"ids": ["enchant.stat_1588572574"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Righteous Fire Area of Effect",
+		"ids": ["enchant.stat_2430635444"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Righteous Fire Damage",
+		"ids": ["enchant.stat_3359178310"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Riposte Damage",
+		"ids": ["enchant.stat_4071708873"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rolling Magma Area of Effect",
+		"ids": ["enchant.stat_1646093658"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Rolling Magma Damage",
+		"ids": ["enchant.stat_600891507"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Scorching Ray beam length",
+		"ids": ["enchant.stat_702909553"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Scorching Ray Cast Speed",
+		"ids": ["enchant.stat_3279758713"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Scorching Ray Damage",
+		"ids": ["enchant.stat_3395096718"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Searing Bond Damage",
+		"ids": ["enchant.stat_2298223148"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Searing Bond Totem Elemental Resistances",
+		"ids": ["enchant.stat_2519689029"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Searing Bond Totem Placement Speed",
+		"ids": ["enchant.stat_708179348"],
+		"value": 60
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Sentinel of Absolution Duration",
+		"ids": ["enchant.stat_1778800422"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Sentinel of Dominance Duration",
+		"ids": ["enchant.stat_3772643988"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shield Charge Attack Speed",
+		"ids": ["enchant.stat_648343221"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shield Charge Damage",
+		"ids": ["enchant.stat_3490662882"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shield Crush Attack Speed",
+		"ids": ["enchant.stat_1948292587"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shield Crush Damage",
+		"ids": ["enchant.stat_1451671945"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shock Nova Area of Effect",
+		"ids": ["enchant.stat_565901339"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shock Nova Damage",
+		"ids": ["enchant.stat_3948894096"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shockwave Totem Area of Effect",
+		"ids": ["enchant.stat_1153159301"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shockwave Totem Cast Speed",
+		"ids": ["enchant.stat_2259906777"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Shockwave Totem Damage",
+		"ids": ["enchant.stat_2440551805"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Smoke Mine Duration",
+		"ids": ["enchant.stat_3719728947"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Soul Link Duration",
+		"ids": ["enchant.stat_3975033889"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spark Damage",
+		"ids": ["enchant.stat_1208019382"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Helix Damage",
+		"ids": ["enchant.stat_183131376"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Helix Projectile Speed",
+		"ids": ["enchant.stat_1952647315"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Shield Throw Damage",
+		"ids": ["enchant.stat_1891516164"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Shield Throw Projectile Speed",
+		"ids": ["enchant.stat_1561141582"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Throw Damage",
+		"ids": ["enchant.stat_3755794090"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spectral Throw Projectile Speed",
+		"ids": ["enchant.stat_1062615953"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Spirit Offering Duration",
+		"ids": ["enchant.stat_1063173946"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Split Arrow Critical Strike Chance",
+		"ids": ["enchant.stat_1028884162"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Split Arrow Damage",
+		"ids": ["enchant.stat_2555469486"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Static Strike Area of Effect",
+		"ids": ["enchant.stat_2685860927"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Static Strike Damage",
+		"ids": ["enchant.stat_551375258"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Static Strike Duration",
+		"ids": ["enchant.stat_2906742892"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Storm Burst Area of Effect",
+		"ids": ["enchant.stat_3961497709"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Storm Burst Damage",
+		"ids": ["enchant.stat_2948719994"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Storm Call Area of Effect",
+		"ids": ["enchant.stat_2070247068"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Storm Call Damage",
+		"ids": ["enchant.stat_3359777583"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Storm Rain Damage",
+		"ids": ["enchant.stat_1463790510"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Summon Reaper Cooldown Recovery Rate",
+		"ids": ["enchant.stat_82475304"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Sweep Area of Effect",
+		"ids": ["enchant.stat_4202548383"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Sweep Damage",
+		"ids": ["enchant.stat_253870897"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Tempest Shield Damage",
+		"ids": ["enchant.stat_2121581717"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Temporal Chains Curse Effect",
+		"ids": ["enchant.stat_1662974426"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Temporal Chains Duration",
+		"ids": ["enchant.stat_888039248"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Tornado Area of Effect",
+		"ids": ["enchant.stat_1866415366"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Tornado Damage",
+		"ids": ["enchant.stat_2681941384"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Tornado Shot Critical Strike Chance",
+		"ids": ["enchant.stat_1815368527"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Tornado Shot Damage",
+		"ids": ["enchant.stat_3555919553"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Unearth Cast Speed",
+		"ids": ["enchant.stat_2387717928"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Unearth Damage",
+		"ids": ["enchant.stat_3953599026"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vampiric Link Duration",
+		"ids": ["enchant.stat_1238426677"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vengeance Damage",
+		"ids": ["enchant.stat_1972101281"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vigilant Strike Damage",
+		"ids": ["enchant.stat_2287764959"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Viper Strike Critical Strike Chance",
+		"ids": ["enchant.stat_3734756042"],
+		"value": 90
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Viper Strike Damage",
+		"ids": ["enchant.stat_2585271359"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Viper Strike Duration",
+		"ids": ["enchant.stat_3869217625"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Volatile Dead Cast Speed",
+		"ids": ["enchant.stat_3179781611"],
+		"value": 12
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Volatile Dead Damage",
+		"ids": ["enchant.stat_1212590278"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Voltaxic Burst Area of Effect",
+		"ids": ["enchant.stat_2982851186"],
+		"value": 24
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Voltaxic Burst Damage",
+		"ids": ["enchant.stat_2913890852"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vortex Damage",
+		"ids": ["enchant.stat_200942664"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vortex Duration",
+		"ids": ["enchant.stat_4074562940"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vulnerability Curse Effect",
+		"ids": ["enchant.stat_1065909420"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Vulnerability Duration",
+		"ids": ["enchant.stat_3229878341"],
+		"value": 45
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Warlord's Mark Curse Effect",
+		"ids": ["enchant.stat_1528965411"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Whirling Blades Attack Speed",
+		"ids": ["enchant.stat_1902197291"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Whirling Blades Damage",
+		"ids": ["enchant.stat_3723124286"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Wild Strike Area of Effect",
+		"ids": ["enchant.stat_524936200"],
+		"value": 36
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Wild Strike Damage",
+		"ids": ["enchant.stat_1666713639"],
+		"value": 40
+	},
+	{
+		"enchantText": "\\d{1,9}% of Burning Arrow Physical Damage gained as Extra Fire Damage",
+		"ids": ["enchant.stat_3229580299"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% of Galvanic Arrow Physical Damage gained as extra Lightning Damage",
+		"ids": ["enchant.stat_1943147282"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% of Glacial Hammer Physical Damage gained as Extra Cold Damage",
+		"ids": ["enchant.stat_2555366825"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% of Ice Crash Physical Damage gained as Extra Cold Damage",
+		"ids": ["enchant.stat_3465202861"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% of Infernal Blow Physical Damage gained as Extra Fire Damage",
+		"ids": ["enchant.stat_2484188706"],
+		"value": 15
+	},
+	{
+		"enchantText": "\\d{1,9}% reduced Lightning Warp Duration",
+		"ids": ["enchant.stat_609478942"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% reduced Spectral Throw Projectile Deceleration",
+		"ids": ["enchant.stat_444686294"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% reduced Storm Call Duration",
+		"ids": ["enchant.stat_1843506018"],
+		"value": 30
+	},
+	{
+		"enchantText": "\\d{1,9}% to Stone Golem Elemental Resistances",
+		"ids": ["enchant.stat_1601558321"],
+		"value": 36
+	},
+	{
+		"enchantText": "+\\d{1,9} to maximum Blade Flurry stages",
+		"ids": ["enchant.stat_865345996"],
+		"value": 0
+	},
+	{
+		"enchantText": "Ancestral Cry has a minimum of \\d{1,9} Power",
+		"ids": ["enchant.stat_988554168"],
+		"value": 10
+	},
+	{
+		"enchantText": "Ancestral Protector Totem deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2596239449"],
+		"value": 40
+	},
+	{
+		"enchantText": "Ancestral Protector Totem grants \\d{1,9}% increased Attack Speed while Active",
+		"ids": ["enchant.stat_1303996723"],
+		"value": 18
+	},
+	{
+		"enchantText": "Ancestral Warchief Totem grants \\d{1,9}% increased Melee Damage while Active",
+		"ids": ["enchant.stat_3543257184"],
+		"value": 30
+	},
+	{
+		"enchantText": "Animated Guardians deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4157143640"],
+		"value": 40
+	},
+	{
+		"enchantText": "Animated Weapons deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1819674879"],
+		"value": 40
+	},
+	{
+		"enchantText": "Arc Chains an additional time",
+		"ids": ["enchant.stat_2461552986"],
+		"value": 1
+	},
+	{
+		"enchantText": "Arc deals \\d{1,9}% increased Damage for each time it has Chained",
+		"ids": ["enchant.stat_3998182656"],
+		"value": 12
+	},
+	{
+		"enchantText": "Arcane Cloak grants Life Regeneration equal to \\d{1,9}% of Mana Spent per Second",
+		"ids": ["enchant.stat_3606492882"],
+		"value": 15
+	},
+	{
+		"enchantText": "Arcane Cloak Spends an additional \\d{1,9}% of current Mana",
+		"ids": ["enchant.stat_122106412"],
+		"value": 15
+	},
+	{
+		"enchantText": "Arcanist Brand has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_1147445274"],
+		"value": 12
+	},
+	{
+		"enchantText": "Armageddon Brand Damage Penetrates \\d{1,9}% of Branded Enemy's Fire Resistance",
+		"ids": ["enchant.stat_1715805151"],
+		"value": 12
+	},
+	{
+		"enchantText": "Armageddon Brand deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1699139870"],
+		"value": 40
+	},
+	{
+		"enchantText": "Armageddon Brand has \\d{1,9}% increased Activation Frequency",
+		"ids": ["enchant.stat_2512194486"],
+		"value": 12
+	},
+	{
+		"enchantText": "Artillery Ballista Damage Penetrates \\d{1,9}% Fire Resistance",
+		"ids": ["enchant.stat_1734517294"],
+		"value": 10
+	},
+	{
+		"enchantText": "Artillery Ballista fires \\d{1,9} additional Arrows",
+		"ids": ["enchant.stat_3283028259"],
+		"value": 2
+	},
+	{
+		"enchantText": "Artillery Ballista fires an additional Arrow",
+		"ids": ["enchant.stat_3283028259"],
+		"value": 1
+	},
+	{
+		"enchantText": "Artillery Ballista Projectiles fall in two perpendicular lines instead",
+		"ids": ["enchant.stat_2056176052"],
+		"value": 1
+	},
+	{
+		"enchantText": "Attacks Exerted by Ancestral Cry deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2146663823"],
+		"value": 50
+	},
+	{
+		"enchantText": "Attacks Exerted by Seismic Cry deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3252913608"],
+		"value": 50
+	},
+	{
+		"enchantText": "Attacks with Energy Blades Penetrate \\d{1,9}% Lightning Resistance",
+		"ids": ["enchant.stat_1501151168"],
+		"value": 12
+	},
+	{
+		"enchantText": "Ball Lightning fires an additional Projectile",
+		"ids": ["enchant.stat_3420683028"],
+		"value": 1
+	},
+	{
+		"enchantText": "Bane deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2206071316"],
+		"value": 40
+	},
+	{
+		"enchantText": "Bane has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_4224588066"],
+		"value": 24
+	},
+	{
+		"enchantText": "Barrage fires an additional Projectile",
+		"ids": ["enchant.stat_3009270704"],
+		"value": 1
+	},
+	{
+		"enchantText": "Battlemage's Cry Exerts \\d{1,9} additional Attack",
+		"ids": ["enchant.stat_931713173"],
+		"value": 1
+	},
+	{
+		"enchantText": "Bear Trap has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_918308703"],
+		"value": 15
+	},
+	{
+		"enchantText": "Berserk has \\d{1,9}% increased Buff Effect",
+		"ids": ["enchant.stat_1663783758"],
+		"value": 30
+	},
+	{
+		"enchantText": "Berserk has \\d{1,9}% reduced Rage loss per second",
+		"ids": ["enchant.stat_1019790379"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blade Blast deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2276547155"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blade Blast detonates other Lingering Blades within an \\d{1,9}% increased Area",
+		"ids": ["enchant.stat_3309486263"],
+		"value": 75
+	},
+	{
+		"enchantText": "Blade Blast has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3569393676"],
+		"value": 24
+	},
+	{
+		"enchantText": "Bladefall has an additional Volley",
+		"ids": ["enchant.stat_3040033697"],
+		"value": 1
+	},
+	{
+		"enchantText": "Bladestorm deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_599289531"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blast Rain deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4014289250"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blast Rain fires an additional Arrow",
+		"ids": ["enchant.stat_297308603"],
+		"value": 100
+	},
+	{
+		"enchantText": "Blast Rain has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_574378310"],
+		"value": 24
+	},
+	{
+		"enchantText": "Blazing Salvo deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4102281803"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blazing Salvo fires an additional Projectile",
+		"ids": ["enchant.stat_3908539803"],
+		"value": 1
+	},
+	{
+		"enchantText": "Blazing Salvo Projectiles land in a \\d{1,9}% increased Area",
+		"ids": ["enchant.stat_1785831895"],
+		"value": 30
+	},
+	{
+		"enchantText": "Blight has \\d{1,9}% increased Hinder Duration",
+		"ids": ["enchant.stat_4170725899"],
+		"value": 30
+	},
+	{
+		"enchantText": "Blink Arrow and Blink Arrow Clones have \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_1554597333"],
+		"value": 15
+	},
+	{
+		"enchantText": "Blink Arrow and Blink Arrow Clones have \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1967878868"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blink Arrow has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2983274404"],
+		"value": 30
+	},
+	{
+		"enchantText": "Blood and Sand has \\d{1,9}% increased Buff Effect",
+		"ids": ["enchant.stat_2471636515"],
+		"value": 40
+	},
+	{
+		"enchantText": "Blood Rage grants additional \\d{1,9}% chance to gain a Frenzy Charge on Kill",
+		"ids": ["enchant.stat_3152806535"],
+		"value": 30
+	},
+	{
+		"enchantText": "Blood Rage grants additional \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_3418033798"],
+		"value": 12
+	},
+	{
+		"enchantText": "Boneshatter has \\d{1,9}% chance to grant +\\d{1,9} Trauma",
+		"ids": ["enchant.stat_2870283358"],
+		"value": 24
+	},
+	{
+		"enchantText": "Burning Arrow has +\\d{1,9}% chance to Ignite",
+		"ids": ["enchant.stat_2226973351"],
+		"value": 30
+	},
+	{
+		"enchantText": "Caustic Arrow has \\d{1,9}% chance to inflict Withered on Hit for \\d{1,9} seconds base Duration",
+		"ids": ["enchant.stat_1993913925"],
+		"value": 20
+	},
+	{
+		"enchantText": "Chain Hook deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_289027663"],
+		"value": 40
+	},
+	{
+		"enchantText": "Chain Hook has a \\d{1,9}% chance to grant +\\d{1,9} Rage if it Hits Enemies",
+		"ids": ["enchant.stat_2588242810"],
+		"value": 40
+	},
+	{
+		"enchantText": "Chaos Golems deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2505115650"],
+		"value": 40
+	},
+	{
+		"enchantText": "Charged Dash has \\d{1,9}% more Movement Speed",
+		"ids": ["enchant.stat_797408710"],
+		"value": 15
+	},
+	{
+		"enchantText": "Chills from Ice Nova Hits always reduce Action Speed by at least \\d{1,9}%",
+		"ids": ["enchant.stat_644285691"],
+		"value": 8
+	},
+	{
+		"enchantText": "Cobra Lash Chains \\d{1,9} additional times",
+		"ids": ["enchant.stat_1471796012"],
+		"value": 3
+	},
+	{
+		"enchantText": "Cobra Lash deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2224580362"],
+		"value": 40
+	},
+	{
+		"enchantText": "Cobra Lash has \\d{1,9}% increased Projectile Speed",
+		"ids": ["enchant.stat_732631533"],
+		"value": 30
+	},
+	{
+		"enchantText": "Cold Snap has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2289367813"],
+		"value": 30
+	},
+	{
+		"enchantText": "Combust has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_4225882962"],
+		"value": 30
+	},
+	{
+		"enchantText": "Consecrated Ground from Holy Flame Totem applies \\d{1,9}% increased Damage taken to Enemies",
+		"ids": ["enchant.stat_2807947"],
+		"value": 9
+	},
+	{
+		"enchantText": "Consecrated Ground from Purifying Flame applies \\d{1,9}% increased Damage taken to Enemies",
+		"ids": ["enchant.stat_3100629498"],
+		"value": 9
+	},
+	{
+		"enchantText": "Consecrated Path deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4047323043"],
+		"value": 40
+	},
+	{
+		"enchantText": "Consecrated Path has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3285061858"],
+		"value": 24
+	},
+	{
+		"enchantText": "Consecrated Path has \\d{1,9}% increased teleport range",
+		"ids": ["enchant.stat_2048678824"],
+		"value": 15
+	},
+	{
+		"enchantText": "Conversion Trap \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2143519574"],
+		"value": 30
+	},
+	{
+		"enchantText": "Converted Enemies have \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_131320052"],
+		"value": 40
+	},
+	{
+		"enchantText": "Convocation has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2680060124"],
+		"value": 30
+	},
+	{
+		"enchantText": "Corrupting Fever deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4010544321"],
+		"value": 40
+	},
+	{
+		"enchantText": "Crackling Lance deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_435519320"],
+		"value": 40
+	},
+	{
+		"enchantText": "Crackling Lance has \\d{1,9}% increased branching angle",
+		"ids": ["enchant.stat_2896346908"],
+		"value": 36
+	},
+	{
+		"enchantText": "Crackling Lance has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_617228927"],
+		"value": 16
+	},
+	{
+		"enchantText": "Creeping Frost's Chilling Area has \\d{1,9}% increased Movement Speed",
+		"ids": ["enchant.stat_2781179464"],
+		"value": 38
+	},
+	{
+		"enchantText": "Cremation can have up to \\d{1,9} additional Geyser at a time",
+		"ids": ["enchant.stat_3503624267"],
+		"value": 1
+	},
+	{
+		"enchantText": "Dash travels \\d{1,9}% increased distance",
+		"ids": ["enchant.stat_4147746721"],
+		"value": 100
+	},
+	{
+		"enchantText": "Defiance Banner has \\d{1,9}% increased Aura Effect",
+		"ids": ["enchant.stat_1105773670"],
+		"value": 40
+	},
+	{
+		"enchantText": "Desecrate Spawns \\d{1,9} additional corpses",
+		"ids": ["enchant.stat_3655654928"],
+		"value": 3
+	},
+	{
+		"enchantText": "Detonate Dead has a \\d{1,9}% chance to detonate an additional corpse",
+		"ids": ["enchant.stat_1539846779"],
+		"value": 45
+	},
+	{
+		"enchantText": "Devouring Totem has \\d{1,9}% Chance to Consume an additional corpse",
+		"ids": ["enchant.stat_4189505564"],
+		"value": 60
+	},
+	{
+		"enchantText": "Divine Ire Damages \\d{1,9} additional nearby Enemies when gaining Stages",
+		"ids": ["enchant.stat_1477213724"],
+		"value": 2
+	},
+	{
+		"enchantText": "Divine Ire Damages an additional nearby Enemy when gaining Stages",
+		"ids": ["enchant.stat_1477213724"],
+		"value": 1
+	},
+	{
+		"enchantText": "Divine Ire deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2584129062"],
+		"value": 40
+	},
+	{
+		"enchantText": "Divine Ire's beam has \\d{1,9}% increased width",
+		"ids": ["enchant.stat_2212298325"],
+		"value": 15
+	},
+	{
+		"enchantText": "Dominating Blow can summon \\d{1,9} additional Magic Sentinels of Dominance",
+		"ids": ["enchant.stat_1095160683"],
+		"value": 3
+	},
+	{
+		"enchantText": "Dominating Blow can summon an additional Rare Sentinel of Dominance",
+		"ids": ["enchant.stat_2337005967"],
+		"value": 1
+	},
+	{
+		"enchantText": "Double Strike has a \\d{1,9}% chance to deal Double Damage to Bleeding Enemies",
+		"ids": ["enchant.stat_3125201823"],
+		"value": 15
+	},
+	{
+		"enchantText": "Dread Banner has \\d{1,9}% increased Aura Effect",
+		"ids": ["enchant.stat_287319069"],
+		"value": 40
+	},
+	{
+		"enchantText": "Earthquake deals \\d{1,9}% increased Damage per \\d{1,9}.\\d{1,9} seconds Duration",
+		"ids": ["enchant.stat_2068943099"],
+		"value": 8
+	},
+	{
+		"enchantText": "Earthshatter deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_335520087"],
+		"value": 40
+	},
+	{
+		"enchantText": "Earthshatter has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3469056056"],
+		"value": 24
+	},
+	{
+		"enchantText": "Elemental Hit deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4109038270"],
+		"value": 40
+	},
+	{
+		"enchantText": "Elemental Hit has +\\d{1,9}% chance to Freeze, Shock and Ignite",
+		"ids": ["enchant.stat_3205997967"],
+		"value": 30
+	},
+	{
+		"enchantText": "Enduring Cry grants \\d{1,9} additional Endurance Charge",
+		"ids": ["enchant.stat_2977067558"],
+		"value": 1
+	},
+	{
+		"enchantText": "Enduring Cry has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3617955571"],
+		"value": 30
+	},
+	{
+		"enchantText": "Enemies affected by Bear Trap take \\d{1,9}% increased Damage from Trap or Mine Hits",
+		"ids": ["enchant.stat_1678345858"],
+		"value": 10
+	},
+	{
+		"enchantText": "Enemies in Void Sphere's range take up to \\d{1,9}% increased Damage, based on distance from the Void Sphere",
+		"ids": ["enchant.stat_4271709087"],
+		"value": 10
+	},
+	{
+		"enchantText": "Energy Blades have \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_1217516474"],
+		"value": 15
+	},
+	{
+		"enchantText": "Ensnaring Arrow has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_2791271819"],
+		"value": 90
+	},
+	{
+		"enchantText": "Ensnaring Arrow has \\d{1,9}% increased Debuff Effect",
+		"ids": ["enchant.stat_1405738574"],
+		"value": 30
+	},
+	{
+		"enchantText": "Ethereal Knives fires Projectiles in a circle",
+		"ids": ["enchant.stat_3491968196"],
+		"value": 1
+	},
+	{
+		"enchantText": "Explosive Arrow deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3628984170"],
+		"value": 40
+	},
+	{
+		"enchantText": "Explosive Arrow has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1041365824"],
+		"value": 24
+	},
+	{
+		"enchantText": "Explosive Arrow has \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_3949159285"],
+		"value": 15
+	},
+	{
+		"enchantText": "Explosive Arrow has \\d{1,9}% increased Duration",
+		"ids": ["enchant.stat_3590425794"],
+		"value": 40
+	},
+	{
+		"enchantText": "Explosive Arrow has \\d{1,9}% reduced Duration",
+		"ids": ["enchant.stat_3590425794"],
+		"value": -20
+	},
+	{
+		"enchantText": "Explosive Concoction uses \\d{1,9}% reduced Flask Charges",
+		"ids": ["enchant.stat_1907051864"],
+		"value": -8
+	},
+	{
+		"enchantText": "Explosive Trap causes \\d{1,9} additional smaller explosions",
+		"ids": ["enchant.stat_3078026860"],
+		"value": 2
+	},
+	{
+		"enchantText": "Explosive Trap causes an additional smaller explosion",
+		"ids": ["enchant.stat_3078026860"],
+		"value": 1
+	},
+	{
+		"enchantText": "Explosive Trap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4207255685"],
+		"value": 40
+	},
+	{
+		"enchantText": "Explosive Trap has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1694915226"],
+		"value": 24
+	},
+	{
+		"enchantText": "Exsanguinate deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2259734653"],
+		"value": 40
+	},
+	{
+		"enchantText": "Exsanguinate has a \\d{1,9}% chance to Chain an additional time",
+		"ids": ["enchant.stat_2304517189"],
+		"value": 25
+	},
+	{
+		"enchantText": "Eye of Winter fires Shard projectiles with \\d{1,9}% increased Frequency during flight",
+		"ids": ["enchant.stat_173612563"],
+		"value": 12
+	},
+	{
+		"enchantText": "Fireball has +\\d{1,9}% chance to Ignite",
+		"ids": ["enchant.stat_2098790581"],
+		"value": 30
+	},
+	{
+		"enchantText": "Flame Dash has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1440798870"],
+		"value": 30
+	},
+	{
+		"enchantText": "Flame Golems have \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1575282859"],
+		"value": 40
+	},
+	{
+		"enchantText": "Flame Wall deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2189364976"],
+		"value": 40
+	},
+	{
+		"enchantText": "Flame Wall grants \\d{1,9} to \\d{1,9} Added Fire Damage to Projectiles",
+		"ids": ["enchant.stat_3881327877"],
+		"value": 31
+	},
+	{
+		"enchantText": "Flamethrower Trap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4162139595"],
+		"value": 40
+	},
+	{
+		"enchantText": "Flamethrower Trap has \\d{1,9} additional Flames",
+		"ids": ["enchant.stat_1452255482"],
+		"value": 2
+	},
+	{
+		"enchantText": "Flamethrower Trap has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2962501808"],
+		"value": 15
+	},
+	{
+		"enchantText": "Flamethrower Trap has \\d{1,9}% increased Skill Effect Duration",
+		"ids": ["enchant.stat_525771896"],
+		"value": 30
+	},
+	{
+		"enchantText": "Flamethrower Trap has an additional Flame",
+		"ids": ["enchant.stat_1452255482"],
+		"value": 1
+	},
+	{
+		"enchantText": "Flesh Offering grants an additional \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_513715594"],
+		"value": 21
+	},
+	{
+		"enchantText": "Flicker Strike has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1398394628"],
+		"value": 30
+	},
+	{
+		"enchantText": "Forbidden Rite fires an additional Projectile",
+		"ids": ["enchant.stat_3047407995"],
+		"value": 1
+	},
+	{
+		"enchantText": "Frost Bomb has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3524326896"],
+		"value": 30
+	},
+	{
+		"enchantText": "Frost Bomb has \\d{1,9}% increased Debuff Duration",
+		"ids": ["enchant.stat_2109176627"],
+		"value": 30
+	},
+	{
+		"enchantText": "Frost Wall has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2479762395"],
+		"value": 30
+	},
+	{
+		"enchantText": "Frostblink has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_815588902"],
+		"value": -20
+	},
+	{
+		"enchantText": "Frostblink has \\d{1,9}% increased maximum travel distance",
+		"ids": ["enchant.stat_3070497632"],
+		"value": 75
+	},
+	{
+		"enchantText": "Frozen Legion has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3809563078"],
+		"value": 30
+	},
+	{
+		"enchantText": "Frozen Sweep deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1048825825"],
+		"value": 40
+	},
+	{
+		"enchantText": "Galvanic Arrow has \\d{1,9}% increased Projectile Speed",
+		"ids": ["enchant.stat_1698558866"],
+		"value": 30
+	},
+	{
+		"enchantText": "Galvanic Field Chains an additional time",
+		"ids": ["enchant.stat_3893203185"],
+		"value": 1
+	},
+	{
+		"enchantText": "Galvanic Field deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3821213705"],
+		"value": 40
+	},
+	{
+		"enchantText": "Galvanic Field has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_2364563825"],
+		"value": 12
+	},
+	{
+		"enchantText": "General's Cry has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3637727672"],
+		"value": 30
+	},
+	{
+		"enchantText": "Glacial Cascade gains \\d{1,9}% of Physical Damage as Extra Cold Damage",
+		"ids": ["enchant.stat_3492427828"],
+		"value": 10
+	},
+	{
+		"enchantText": "Ground Slam has a \\d{1,9}% increased angle",
+		"ids": ["enchant.stat_648647905"],
+		"value": 24
+	},
+	{
+		"enchantText": "Heavy Strike has a \\d{1,9}% chance to deal Double Damage",
+		"ids": ["enchant.stat_3760588941"],
+		"value": 12
+	},
+	{
+		"enchantText": "Hexblast deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2318562335"],
+		"value": 40
+	},
+	{
+		"enchantText": "Hexblast has \\d{1,9}% chance to not remove a Hex",
+		"ids": ["enchant.stat_997807729"],
+		"value": 15
+	},
+	{
+		"enchantText": "Hexblast has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1811698551"],
+		"value": 24
+	},
+	{
+		"enchantText": "Hits at Close Range with Shattering Steel Fortify",
+		"ids": ["enchant.stat_611022108"],
+		"value": 1
+	},
+	{
+		"enchantText": "Holy Flame Totem deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2801853811"],
+		"value": 40
+	},
+	{
+		"enchantText": "Holy Flame Totem fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_775200811"],
+		"value": 2
+	},
+	{
+		"enchantText": "Holy Flame Totem fires an additional Projectile",
+		"ids": ["enchant.stat_775200811"],
+		"value": 1
+	},
+	{
+		"enchantText": "Holy Flame Totem has \\d{1,9}% increased Projectile Speed",
+		"ids": ["enchant.stat_4082863126"],
+		"value": 30
+	},
+	{
+		"enchantText": "Hydrosphere deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1040582501"],
+		"value": 40
+	},
+	{
+		"enchantText": "Hydrosphere has \\d{1,9}% increased Pulse Frequency",
+		"ids": ["enchant.stat_222917854"],
+		"value": 30
+	},
+	{
+		"enchantText": "Ice Golems deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3816405721"],
+		"value": 40
+	},
+	{
+		"enchantText": "Ice Nova has +\\d{1,9}% chance to Freeze",
+		"ids": ["enchant.stat_3269321994"],
+		"value": 30
+	},
+	{
+		"enchantText": "Ice Shot has \\d{1,9}% increased Area of Effect angle",
+		"ids": ["enchant.stat_3781924200"],
+		"value": 60
+	},
+	{
+		"enchantText": "Ice Spear fires an additional Projectile",
+		"ids": ["enchant.stat_3801130154"],
+		"value": 1
+	},
+	{
+		"enchantText": "Ice Spear travels \\d{1,9}% reduced distance before changing forms",
+		"ids": ["enchant.stat_3295914630"],
+		"value": 30
+	},
+	{
+		"enchantText": "Ice Trap Damage Penetrates \\d{1,9}% Cold Resistance",
+		"ids": ["enchant.stat_3698446010"],
+		"value": 10
+	},
+	{
+		"enchantText": "Icicle Mine deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2363866815"],
+		"value": 40
+	},
+	{
+		"enchantText": "Icicle Mine has \\d{1,9}% increased Throwing Speed",
+		"ids": ["enchant.stat_3162144587"],
+		"value": 15
+	},
+	{
+		"enchantText": "Incinerate has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_2562208244"],
+		"value": 24
+	},
+	{
+		"enchantText": "Infernal Blow Debuff deals an additional \\d{1,9}% of Damage per Charge",
+		"ids": ["enchant.stat_105839441"],
+		"value": 5
+	},
+	{
+		"enchantText": "Infernal Cry has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2702698464"],
+		"value": 30
+	},
+	{
+		"enchantText": "Intimidating Cry has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1088946611"],
+		"value": 24
+	},
+	{
+		"enchantText": "Intimidating Cry has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1134560807"],
+		"value": 30
+	},
+	{
+		"enchantText": "Kinetic Blast has a \\d{1,9}% chance for an additional explosion",
+		"ids": ["enchant.stat_3105097589"],
+		"value": 75
+	},
+	{
+		"enchantText": "Kinetic Bolt changes direction \\d{1,9} additional time",
+		"ids": ["enchant.stat_1460506005"],
+		"value": 1
+	},
+	{
+		"enchantText": "Kinetic Bolt changes direction \\d{1,9} additional times",
+		"ids": ["enchant.stat_1460506005"],
+		"value": 2
+	},
+	{
+		"enchantText": "Kinetic Bolt has \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_2244239056"],
+		"value": 15
+	},
+	{
+		"enchantText": "Kinetic Bolt has \\d{1,9}% increased Projectile Speed",
+		"ids": ["enchant.stat_2482018205"],
+		"value": 30
+	},
+	{
+		"enchantText": "Lacerate deals \\d{1,9} to \\d{1,9} added Physical Damage against Bleeding Enemies",
+		"ids": ["enchant.stat_732320584"],
+		"value": 14
+	},
+	{
+		"enchantText": "Lancing Steel deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2159486200"],
+		"value": 40
+	},
+	{
+		"enchantText": "Lancing Steel fires an additional Projectile",
+		"ids": ["enchant.stat_4081185348"],
+		"value": 1
+	},
+	{
+		"enchantText": "Lancing Steel has \\d{1,9}% chance to count as consuming Steel Shards without Consuming them",
+		"ids": ["enchant.stat_2891251105"],
+		"value": 30
+	},
+	{
+		"enchantText": "Lightning Arrow hits \\d{1,9} additional Enemies",
+		"ids": ["enchant.stat_1901955093"],
+		"value": 2
+	},
+	{
+		"enchantText": "Lightning Arrow hits an additional Enemy",
+		"ids": ["enchant.stat_1901955093"],
+		"value": 1
+	},
+	{
+		"enchantText": "Lightning Conduit deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2511245659"],
+		"value": 40
+	},
+	{
+		"enchantText": "Lightning Conduit has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_2252888886"],
+		"value": 24
+	},
+	{
+		"enchantText": "Lightning Conduit has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_2437571727"],
+		"value": 12
+	},
+	{
+		"enchantText": "Lightning Golems deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3280107027"],
+		"value": 40
+	},
+	{
+		"enchantText": "Lightning Spire Trap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_982975385"],
+		"value": 40
+	},
+	{
+		"enchantText": "Lightning Spire Trap has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1570047087"],
+		"value": 15
+	},
+	{
+		"enchantText": "Lightning Spire Trap has \\d{1,9}% increased Skill Effect Duration",
+		"ids": ["enchant.stat_2207890291"],
+		"value": 30
+	},
+	{
+		"enchantText": "Lightning Spire Trap strikes an additional area",
+		"ids": ["enchant.stat_1104507216"],
+		"value": 1
+	},
+	{
+		"enchantText": "Lightning Strike fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_1213035889"],
+		"value": 2
+	},
+	{
+		"enchantText": "Lightning Strike fires an additional Projectile",
+		"ids": ["enchant.stat_1213035889"],
+		"value": 1
+	},
+	{
+		"enchantText": "Lightning Strike pierces \\d{1,9} additional Targets",
+		"ids": ["enchant.stat_3134777190"],
+		"value": 3
+	},
+	{
+		"enchantText": "Lightning Trap Damage Penetrates \\d{1,9}% Lightning Resistance",
+		"ids": ["enchant.stat_1557531966"],
+		"value": 10
+	},
+	{
+		"enchantText": "Lightning Trap pierces \\d{1,9} additional Targets",
+		"ids": ["enchant.stat_3764410821"],
+		"value": 3
+	},
+	{
+		"enchantText": "Manabond Penetrates \\d{1,9}% Lightning Resistance while on Low Mana",
+		"ids": ["enchant.stat_2052200782"],
+		"value": 12
+	},
+	{
+		"enchantText": "Mirror Arrow and Mirror Arrow Clones deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4136186767"],
+		"value": 40
+	},
+	{
+		"enchantText": "Mirror Arrow and Mirror Arrow Clones have \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_3653459847"],
+		"value": 15
+	},
+	{
+		"enchantText": "Mirror Arrow has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1781106044"],
+		"value": 30
+	},
+	{
+		"enchantText": "Molten Shell has \\d{1,9}% increased Skill Effect Duration",
+		"ids": ["enchant.stat_4255043252"],
+		"value": 40
+	},
+	{
+		"enchantText": "Molten Strike fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_995860222"],
+		"value": 2
+	},
+	{
+		"enchantText": "Molten Strike fires an additional Projectile",
+		"ids": ["enchant.stat_995860222"],
+		"value": 1
+	},
+	{
+		"enchantText": "Orb of Storms deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4084540709"],
+		"value": 40
+	},
+	{
+		"enchantText": "Orb of Storms has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_2778301298"],
+		"value": 30
+	},
+	{
+		"enchantText": "Penance Brand deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_610562666"],
+		"value": 40
+	},
+	{
+		"enchantText": "Penance Brand has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1486948114"],
+		"value": 24
+	},
+	{
+		"enchantText": "Penance Brand has \\d{1,9}% increased Cast Speed",
+		"ids": ["enchant.stat_709541481"],
+		"value": 12
+	},
+	{
+		"enchantText": "Perforate deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2731606134"],
+		"value": 40
+	},
+	{
+		"enchantText": "Perforate has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3536566359"],
+		"value": 24
+	},
+	{
+		"enchantText": "Pestilent Strike deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_856157011"],
+		"value": 40
+	},
+	{
+		"enchantText": "Pestilent Strike has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3787328468"],
+		"value": 24
+	},
+	{
+		"enchantText": "Pestilent Strike has \\d{1,9}% increased Duration",
+		"ids": ["enchant.stat_64670441"],
+		"value": 40
+	},
+	{
+		"enchantText": "Plague Bearer deals Damage based on an additional \\d{1,9}% of Plague Value",
+		"ids": ["enchant.stat_3672666316"],
+		"value": 5
+	},
+	{
+		"enchantText": "Poisonous Concoction uses \\d{1,9}% reduced Flask Charges",
+		"ids": ["enchant.stat_1474722052"],
+		"value": -8
+	},
+	{
+		"enchantText": "Power Siphon fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_1177831984"],
+		"value": 2
+	},
+	{
+		"enchantText": "Power Siphon fires an additional Projectile",
+		"ids": ["enchant.stat_1177831984"],
+		"value": 1
+	},
+	{
+		"enchantText": "Purifying Flame deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_944311193"],
+		"value": 40
+	},
+	{
+		"enchantText": "Purifying Flame has \\d{1,9}% increased Area of Effect if targeting Consecrated Ground",
+		"ids": ["enchant.stat_1954529734"],
+		"value": 30
+	},
+	{
+		"enchantText": "Pyroclast Mine deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4048820315"],
+		"value": 40
+	},
+	{
+		"enchantText": "Pyroclast Mine fires an additional Projectile",
+		"ids": ["enchant.stat_841281094"],
+		"value": 1
+	},
+	{
+		"enchantText": "Pyroclast Mine has \\d{1,9}% increased Throwing Speed",
+		"ids": ["enchant.stat_2005440071"],
+		"value": 15
+	},
+	{
+		"enchantText": "Rain of Arrows has \\d{1,9}% chance to fire an additional sequence of arrows",
+		"ids": ["enchant.stat_3505939359"],
+		"value": 15
+	},
+	{
+		"enchantText": "Raised Zombies deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2228518621"],
+		"value": 40
+	},
+	{
+		"enchantText": "Raised Zombies have \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_2499559911"],
+		"value": 15
+	},
+	{
+		"enchantText": "Rallying Cry Exerts \\d{1,9} additional Attack",
+		"ids": ["enchant.stat_2080441723"],
+		"value": 1
+	},
+	{
+		"enchantText": "Reap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1545524769"],
+		"value": 40
+	},
+	{
+		"enchantText": "Reckoning has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_804983774"],
+		"value": 30
+	},
+	{
+		"enchantText": "Rejuvenation Totem also grants Mana Regeneration equal to \\d{1,9}% of its Life Regeneration",
+		"ids": ["enchant.stat_1803063132"],
+		"value": 15
+	},
+	{
+		"enchantText": "Righteous Fire grants \\d{1,9}% increased Spell Damage",
+		"ids": ["enchant.stat_3316822388"],
+		"value": 30
+	},
+	{
+		"enchantText": "Riposte has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2287986752"],
+		"value": 30
+	},
+	{
+		"enchantText": "Rolling Magma Chains an additional time",
+		"ids": ["enchant.stat_2589980605"],
+		"value": 1
+	},
+	{
+		"enchantText": "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past \\d{1,9} second",
+		"ids": ["enchant.stat_4059221381"],
+		"value": 1
+	},
+	{
+		"enchantText": "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past \\d{1,9}.\\d{1,9} seconds",
+		"ids": ["enchant.stat_242209782"],
+		"value": 1
+	},
+	{
+		"enchantText": "Sand Bladestorms move with \\d{1,9}% increased speed",
+		"ids": ["enchant.stat_1556508042"],
+		"value": 75
+	},
+	{
+		"enchantText": "Scourge Arrow creates an additional spore pod at Maximum Stages",
+		"ids": ["enchant.stat_1044970549"],
+		"value": 1
+	},
+	{
+		"enchantText": "Scourge Arrow deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_192534517"],
+		"value": 40
+	},
+	{
+		"enchantText": "Scourge Arrow has \\d{1,9}% chance to Poison per Stage",
+		"ids": ["enchant.stat_2257652056"],
+		"value": 8
+	},
+	{
+		"enchantText": "Seismic Cry has a minimum of \\d{1,9} Power",
+		"ids": ["enchant.stat_355086768"],
+		"value": 10
+	},
+	{
+		"enchantText": "Seismic Trap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1175282728"],
+		"value": 40
+	},
+	{
+		"enchantText": "Seismic Trap has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3618430531"],
+		"value": 15
+	},
+	{
+		"enchantText": "Seismic Trap has \\d{1,9}% increased Skill Effect Duration",
+		"ids": ["enchant.stat_1615912303"],
+		"value": 30
+	},
+	{
+		"enchantText": "Seismic Trap releases an additional Wave",
+		"ids": ["enchant.stat_1389191919"],
+		"value": 1
+	},
+	{
+		"enchantText": "Shattering Steel deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2313072099"],
+		"value": 40
+	},
+	{
+		"enchantText": "Shattering Steel has \\d{1,9}% chance to not consume Steel Shards",
+		"ids": ["enchant.stat_4072657110"],
+		"value": 30
+	},
+	{
+		"enchantText": "Shield Crush central wave has \\d{1,9}% more Area of Effect",
+		"ids": ["enchant.stat_734712401"],
+		"value": 24
+	},
+	{
+		"enchantText": "Shock Nova ring deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3652051346"],
+		"value": 60
+	},
+	{
+		"enchantText": "Shrapnel Ballista fires an additional Arrow",
+		"ids": ["enchant.stat_959534996"],
+		"value": 1
+	},
+	{
+		"enchantText": "Shrapnel Ballista has \\d{1,9}% increased Projectile Speed",
+		"ids": ["enchant.stat_1213017413"],
+		"value": 30
+	},
+	{
+		"enchantText": "Shrapnel Ballista Pierces \\d{1,9} additional Targets",
+		"ids": ["enchant.stat_1494168614"],
+		"value": 6
+	},
+	{
+		"enchantText": "Siege Ballista deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_840189382"],
+		"value": 40
+	},
+	{
+		"enchantText": "Siege Ballista has \\d{1,9}% increased Attack Speed",
+		"ids": ["enchant.stat_444858149"],
+		"value": 15
+	},
+	{
+		"enchantText": "Siege Ballista has \\d{1,9}% increased Totem Placement Speed",
+		"ids": ["enchant.stat_2896357741"],
+		"value": 45
+	},
+	{
+		"enchantText": "Sigil of Power requires \\d{1,9}% reduced Mana Spent to gain a Stage",
+		"ids": ["enchant.stat_1582465837"],
+		"value": -10
+	},
+	{
+		"enchantText": "Sigil of Power's Buff also grants \\d{1,9}% increased Critical Strike Chance per Stage",
+		"ids": ["enchant.stat_479197076"],
+		"value": 30
+	},
+	{
+		"enchantText": "Siphoning Trap deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3686368306"],
+		"value": 40
+	},
+	{
+		"enchantText": "Siphoning Trap has \\d{1,9}% increased Chill Effect",
+		"ids": ["enchant.stat_2530563277"],
+		"value": 40
+	},
+	{
+		"enchantText": "Siphoning Trap has \\d{1,9}% increased Skill Effect Duration",
+		"ids": ["enchant.stat_4166695945"],
+		"value": 45
+	},
+	{
+		"enchantText": "Siphoning Trap's beam to you grants \\d{1,9}% reduced Damage taken for each other beam",
+		"ids": ["enchant.stat_2673745094"],
+		"value": 1
+	},
+	{
+		"enchantText": "Skeletons deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3059357595"],
+		"value": 40
+	},
+	{
+		"enchantText": "Skills Supported by Spellslinger have \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_465162370"],
+		"value": 30
+	},
+	{
+		"enchantText": "Smite deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3901016205"],
+		"value": 40
+	},
+	{
+		"enchantText": "Smite has \\d{1,9}% increased Aura Effect",
+		"ids": ["enchant.stat_2294732229"],
+		"value": 30
+	},
+	{
+		"enchantText": "Smite has a \\d{1,9}% chance for lightning to strike another target",
+		"ids": ["enchant.stat_3946561324"],
+		"value": 15
+	},
+	{
+		"enchantText": "Smoke Mine grants additional \\d{1,9}% increased Movement Speed",
+		"ids": ["enchant.stat_3564777492"],
+		"value": 30
+	},
+	{
+		"enchantText": "Sniper's Mark has \\d{1,9}% increased Curse Effect",
+		"ids": ["enchant.stat_2789561878"],
+		"value": 15
+	},
+	{
+		"enchantText": "Soulrend also Hinders Enemies, with \\d{1,9}% reduced Movement Speed",
+		"ids": ["enchant.stat_303359279"],
+		"value": 40
+	},
+	{
+		"enchantText": "Soulrend deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4117042530"],
+		"value": 40
+	},
+	{
+		"enchantText": "Soulrend fires an additional Projectile",
+		"ids": ["enchant.stat_3371533847"],
+		"value": 1
+	},
+	{
+		"enchantText": "Spark fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_186513618"],
+		"value": 3
+	},
+	{
+		"enchantText": "Spark fires Projectiles in a circle",
+		"ids": ["enchant.stat_3803013948"],
+		"value": 1
+	},
+	{
+		"enchantText": "Spectral Shield Throw fires \\d{1,9} additional Shard Projectiles",
+		"ids": ["enchant.stat_3608981617"],
+		"value": 3
+	},
+	{
+		"enchantText": "Spectres have \\d{1,9}% increased Attack and Cast Speed",
+		"ids": ["enchant.stat_4137556603"],
+		"value": 12
+	},
+	{
+		"enchantText": "Spectres have \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3645693773"],
+		"value": 40
+	},
+	{
+		"enchantText": "Spells Triggered by Arcanist Brand Unnerve enemies on Hit for \\d{1,9} seconds",
+		"ids": ["enchant.stat_1350243490"],
+		"value": 0
+	},
+	{
+		"enchantText": "Split Arrow fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_2278715446"],
+		"value": 3
+	},
+	{
+		"enchantText": "Splitting Steel deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_866725377"],
+		"value": 40
+	},
+	{
+		"enchantText": "Splitting Steel has \\d{1,9}% chance to not consume Steel Shards",
+		"ids": ["enchant.stat_3367825241"],
+		"value": 30
+	},
+	{
+		"enchantText": "Splitting Steel has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1977935782"],
+		"value": 24
+	},
+	{
+		"enchantText": "Steelskin Buff can take \\d{1,9}% increased amount of Damage",
+		"ids": ["enchant.stat_4102483123"],
+		"value": 45
+	},
+	{
+		"enchantText": "Steelskin grants \\d{1,9}% additional Physical Damage Reduction",
+		"ids": ["enchant.stat_680880155"],
+		"value": 12
+	},
+	{
+		"enchantText": "Stone Golems deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1171483499"],
+		"value": 40
+	},
+	{
+		"enchantText": "Storm Brand Damage Penetrates \\d{1,9}% of Branded Enemy's Lightning Resistance",
+		"ids": ["enchant.stat_3318254108"],
+		"value": 12
+	},
+	{
+		"enchantText": "Storm Brand deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_531461618"],
+		"value": 40
+	},
+	{
+		"enchantText": "Storm Brand has a \\d{1,9}% chance to Chain an additional time",
+		"ids": ["enchant.stat_1510381560"],
+		"value": 18
+	},
+	{
+		"enchantText": "Storm Burst has a \\d{1,9}% chance to create an additional Orb",
+		"ids": ["enchant.stat_1898356067"],
+		"value": 15
+	},
+	{
+		"enchantText": "Storm Rain fires an additional Arrow",
+		"ids": ["enchant.stat_3548112418"],
+		"value": 1
+	},
+	{
+		"enchantText": "Storm Rain has \\d{1,9}% increased Beam frequency",
+		"ids": ["enchant.stat_1799087078"],
+		"value": 40
+	},
+	{
+		"enchantText": "Stormbind deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1235531589"],
+		"value": 40
+	},
+	{
+		"enchantText": "Stormbind has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3823033989"],
+		"value": 24
+	},
+	{
+		"enchantText": "Stormblast Mine deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_494231298"],
+		"value": 40
+	},
+	{
+		"enchantText": "Stormblast Mine has \\d{1,9}% increased Aura Effect",
+		"ids": ["enchant.stat_2718657160"],
+		"value": 40
+	},
+	{
+		"enchantText": "Stormblast Mine has \\d{1,9}% increased Throwing Speed",
+		"ids": ["enchant.stat_321894708"],
+		"value": 15
+	},
+	{
+		"enchantText": "Summon Raging Spirit has \\d{1,9}% chance to summon an extra Minion",
+		"ids": ["enchant.stat_1381908541"],
+		"value": 24
+	},
+	{
+		"enchantText": "Summon Raging Spirit has \\d{1,9}% increased Duration",
+		"ids": ["enchant.stat_38715141"],
+		"value": 30
+	},
+	{
+		"enchantText": "Summoned Agony Crawler fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_155429578"],
+		"value": 2
+	},
+	{
+		"enchantText": "Summoned Carrion Golems deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3593547682"],
+		"value": 40
+	},
+	{
+		"enchantText": "Summoned Holy Relics deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1152784934"],
+		"value": 40
+	},
+	{
+		"enchantText": "Summoned Holy Relics have \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3026568825"],
+		"value": 24
+	},
+	{
+		"enchantText": "Summoned Holy Relics have \\d{1,9}% increased Buff Effect",
+		"ids": ["enchant.stat_3080391193"],
+		"value": 60
+	},
+	{
+		"enchantText": "Summoned Raging Spirits deal \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2085855914"],
+		"value": 40
+	},
+	{
+		"enchantText": "Summoned Reaper deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2516903912"],
+		"value": 40
+	},
+	{
+		"enchantText": "Summoned Sentinels of Absolution have \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_771292654"],
+		"value": 24
+	},
+	{
+		"enchantText": "Summoned Skitterbots have \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_2844839137"],
+		"value": 90
+	},
+	{
+		"enchantText": "Sunder has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_3316767657"],
+		"value": 24
+	},
+	{
+		"enchantText": "Sunder has \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_4033078288"],
+		"value": 40
+	},
+	{
+		"enchantText": "Sunder has \\d{1,9}% reduced delay between Areas in the Wave",
+		"ids": ["enchant.stat_40032620"],
+		"value": -15
+	},
+	{
+		"enchantText": "Sweep has a \\d{1,9}% chance to grant an Endurance Charge on Hit",
+		"ids": ["enchant.stat_609916976"],
+		"value": 30
+	},
+	{
+		"enchantText": "Tectonic Slam deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_3999206457"],
+		"value": 40
+	},
+	{
+		"enchantText": "Tectonic Slam has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_340193547"],
+		"value": 24
+	},
+	{
+		"enchantText": "Tempest Shield chains an additional \\d{1,9} times",
+		"ids": ["enchant.stat_3096183736"],
+		"value": 3
+	},
+	{
+		"enchantText": "Temporal Rift has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_3614009195"],
+		"value": 30
+	},
+	{
+		"enchantText": "Tornado has \\d{1,9}% increased Movement Speed",
+		"ids": ["enchant.stat_3713499406"],
+		"value": 30
+	},
+	{
+		"enchantText": "Tornado Shot fires an additional secondary Projectile",
+		"ids": ["enchant.stat_1580810115"],
+		"value": 1
+	},
+	{
+		"enchantText": "Toxic Rain deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_865511246"],
+		"value": 40
+	},
+	{
+		"enchantText": "Toxic Rain fires \\d{1,9} additional Arrow",
+		"ids": ["enchant.stat_2140127102"],
+		"value": 1
+	},
+	{
+		"enchantText": "Toxic Rain gains \\d{1,9}% of Physical Damage as Extra Chaos Damage",
+		"ids": ["enchant.stat_1798919988"],
+		"value": 10
+	},
+	{
+		"enchantText": "Vengeance has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_1447427508"],
+		"value": 30
+	},
+	{
+		"enchantText": "Venom Gyre deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1404787106"],
+		"value": 40
+	},
+	{
+		"enchantText": "Venom Gyre has a \\d{1,9}% chance to inflict Withered for \\d{1,9} seconds on Hit",
+		"ids": ["enchant.stat_2157671820"],
+		"value": 20
+	},
+	{
+		"enchantText": "Venom Gyre has a \\d{1,9}% chance to keep each caught Projectile fired with Whirling Blades",
+		"ids": ["enchant.stat_2563177940"],
+		"value": 25
+	},
+	{
+		"enchantText": "Vigilant Strike has \\d{1,9}% increased Fortification Duration",
+		"ids": ["enchant.stat_2275055843"],
+		"value": 45
+	},
+	{
+		"enchantText": "Void Sphere has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2690342765"],
+		"value": 30
+	},
+	{
+		"enchantText": "Void Sphere has \\d{1,9}% increased Pulse Frequency",
+		"ids": ["enchant.stat_2523663201"],
+		"value": 18
+	},
+	{
+		"enchantText": "Volatile Dead Consumes up to \\d{1,9} additional corpse",
+		"ids": ["enchant.stat_3034788766"],
+		"value": 1
+	},
+	{
+		"enchantText": "Volcanic Fissure deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_1124690737"],
+		"value": 40
+	},
+	{
+		"enchantText": "Volcanic Fissure fires \\d{1,9} additional Projectiles",
+		"ids": ["enchant.stat_1460853241"],
+		"value": 2
+	},
+	{
+		"enchantText": "Volcanic Fissure fires an additional Projectile",
+		"ids": ["enchant.stat_1460853241"],
+		"value": 1
+	},
+	{
+		"enchantText": "Volcanic Fissure travels \\d{1,9}% faster",
+		"ids": ["enchant.stat_373677479"],
+		"value": 80
+	},
+	{
+		"enchantText": "Voltaxic Burst deals \\d{1,9}% increased Damage per \\d{1,9}.\\d{1,9} seconds of Duration",
+		"ids": ["enchant.stat_3472104870"],
+		"value": 3
+	},
+	{
+		"enchantText": "Vortex has \\d{1,9}% increased Area of Effect when Cast on Frostbolt",
+		"ids": ["enchant.stat_2295263113"],
+		"value": 45
+	},
+	{
+		"enchantText": "Vortex has \\d{1,9}% increased Cooldown Recovery Rate",
+		"ids": ["enchant.stat_2461424099"],
+		"value": 30
+	},
+	{
+		"enchantText": "War Banner has \\d{1,9}% increased Aura Effect",
+		"ids": ["enchant.stat_2592211591"],
+		"value": 40
+	},
+	{
+		"enchantText": "Wave of Conviction deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_309198891"],
+		"value": 40
+	},
+	{
+		"enchantText": "Wave of Conviction has \\d{1,9}% increased Duration",
+		"ids": ["enchant.stat_2412561418"],
+		"value": 30
+	},
+	{
+		"enchantText": "Wild Strike's Beam Chains an additional \\d{1,9} times",
+		"ids": ["enchant.stat_2447447843"],
+		"value": 6
+	},
+	{
+		"enchantText": "Winter Orb deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_2200744772"],
+		"value": 40
+	},
+	{
+		"enchantText": "Winter Orb has \\d{1,9}% increased Area of Effect per Stage",
+		"ids": ["enchant.stat_1017161280"],
+		"value": 3
+	},
+	{
+		"enchantText": "Winter Orb has +\\d{1,9} Maximum Stages",
+		"ids": ["enchant.stat_3734339018"],
+		"value": 2
+	},
+	{
+		"enchantText": "Wintertide Brand deals \\d{1,9}% increased Damage",
+		"ids": ["enchant.stat_770334536"],
+		"value": 40
+	},
+	{
+		"enchantText": "Wintertide Brand has \\d{1,9}% increased Chill Effect",
+		"ids": ["enchant.stat_1831757355"],
+		"value": 40
+	},
+	{
+		"enchantText": "Wither has \\d{1,9}% increased Area of Effect",
+		"ids": ["enchant.stat_1810898461"],
+		"value": 24
+	},
+	{
+		"enchantText": "Wither has \\d{1,9}% increased Duration",
+		"ids": ["enchant.stat_447560345"],
+		"value": 36
+	},
+	{
+		"enchantText": "Withering Step has \\d{1,9}% increased Elusive Effect",
+		"ids": ["enchant.stat_281958409"],
+		"value": 30
+	},
+	{
+		"enchantText": "Withering Step inflicts \\d{1,9} additional Withered Debuffs",
+		"ids": ["enchant.stat_2273926362"],
+		"value": 3
+	},
+	{
+		"enchantText": "\\d{1,9}% increased Mana Reservation Efficiency of Skills Supported by Spellslinger",
+		"ids": ["enchant.stat_1341061286", "enchant.stat_3305838454"],
+		"value": 30
+	},
+	{
+		"enchantText": "Anger has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_2963485753", "enchant.stat_2549369799"],
+		"value": 30
+	},
+	{
+		"enchantText": "Arctic Armour has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_2605040931", "enchant.stat_2351239732"],
+		"value": 75
+	},
+	{
+		"enchantText": "Clarity has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_2668611054", "enchant.stat_453778214"],
+		"value": 75
+	},
+	{
+		"enchantText": "Determination has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_2721871046", "enchant.stat_325889252"],
+		"value": 30
+	},
+	{
+		"enchantText": "Discipline has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1692887998", "enchant.stat_2081344089"],
+		"value": 45
+	},
+	{
+		"enchantText": "Flesh and Stone has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3563089138", "enchant.stat_1740848995"],
+		"value": 75
+	},
+	{
+		"enchantText": "Grace has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1803598623", "enchant.stat_900639351"],
+		"value": 30
+	},
+	{
+		"enchantText": "Haste has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_804667127", "enchant.stat_939320550"],
+		"value": 30
+	},
+	{
+		"enchantText": "Herald of Agony has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1284151528", "enchant.stat_1133703802"],
+		"value": 75
+	},
+	{
+		"enchantText": "Hatred has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1920370417", "enchant.stat_2156140483"],
+		"value": 30
+	},
+	{
+		"enchantText": "Herald of Ash has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3819451758", "enchant.stat_2500442851"],
+		"value": 75
+	},
+	{
+		"enchantText": "Herald of Ice has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3059700363", "enchant.stat_3395872960"],
+		"value": 75
+	},
+	{
+		"enchantText": "Herald of Purity has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1542765265", "enchant.stat_2189040439"],
+		"value": 75
+	},
+	{
+		"enchantText": "Herald of Thunder has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3959101898", "enchant.stat_3817220109"],
+		"value": 75
+	},
+	{
+		"enchantText": "Malevolence has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3266567165", "enchant.stat_3383226338"],
+		"value": 30
+	},
+	{
+		"enchantText": "Petrified Blood has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1829483269", "enchant.stat_1779904215"],
+		"value": 45
+	},
+	{
+		"enchantText": "Precision has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_658622139", "enchant.stat_3859865977"],
+		"value": 75
+	},
+	{
+		"enchantText": "Pride has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3484910620", "enchant.stat_3993865658"],
+		"value": 30
+	},
+	{
+		"enchantText": "Purity of Elements has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_491551762", "enchant.stat_3303293173"],
+		"value": 30
+	},
+	{
+		"enchantText": "Purity of Fire has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1135152940", "enchant.stat_3003688066"],
+		"value": 45
+	},
+	{
+		"enchantText": "Purity of Ice has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_2665518524", "enchant.stat_139925400"],
+		"value": 45
+	},
+	{
+		"enchantText": "Purity of Lightning has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1450978702", "enchant.stat_3411256933"],
+		"value": 45
+	},
+	{
+		"enchantText": "Summon Skitterbots has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_3818053347", "enchant.stat_1695754537"],
+		"value": 45
+	},
+	{
+		"enchantText": "Vitality has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1233806203", "enchant.stat_3972739758"],
+		"value": 75
+	},
+	{
+		"enchantText": "Wrath has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_1761642973", "enchant.stat_3444518809"],
+		"value": 30
+	},
+	{
+		"enchantText": "Zealotry has \\d{1,9}% increased Mana Reservation Efficiency",
+		"ids": ["enchant.stat_4216444167", "enchant.stat_168308685"],
+		"value": 30
+	}
+]

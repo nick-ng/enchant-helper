@@ -2,7 +2,8 @@
 	import { onMount } from 'svelte';
 	import { processImage } from '$lib/ocr';
 	import { enchantSalesStore } from '$lib/stores/enchant-sales';
-	import { enchants } from './raw-enchant-data';
+	import { enchantDataStore } from '$lib/stores/enchant-data';
+
 	import {
 		getUniquesUrl,
 		getIlvl86Url,
@@ -16,10 +17,12 @@
 
 	let imageBase64 = '';
 	let text = '';
+	let text2 = '';
 	let status = 'Paste an image (Ctrl + v) or';
 	let matchingEnchants: {
 		enchantText: string;
-		poeTradeUrl: string;
+		value: number;
+		ids: string[];
 		order: number;
 	}[] = [];
 	let manualSearchString = '';
@@ -29,7 +32,7 @@
 	let labPoIBase64 = '';
 
 	$: manualMatches = manualSearchString
-		? enchants
+		? $enchantDataStore
 				.filter(({ enchantText }) => {
 					return enchantText.toLowerCase().includes(manualSearchString.toLowerCase());
 				})
@@ -84,20 +87,32 @@
 
 						text = await processImage(blob);
 
-						const text2 = text.replaceAll(/\s+/g, ' ').toLowerCase();
+						text2 = text.replaceAll(/\s+/g, ' ').replaceAll(/[‘’]/g, "'").toLowerCase();
 
-						enchants.forEach(({ enchantText, poeTradeUrl }) => {
-							const index = text2.indexOf(enchantText.toLowerCase());
-							if (index >= 0) {
-								matchingEnchants = [
-									...matchingEnchants,
-									{
-										enchantText,
-										poeTradeUrl,
-										order: index
-									}
-								];
+						$enchantDataStore.forEach(({ enchantText, ids, value }) => {
+							const reString = enchantText.replaceAll(/\+/g, '\\+').replaceAll(/ /g, '.{1,9}');
+
+							try {
+								const re = new RegExp(reString, 'i');
+
+								const m = text2.match(re);
+
+								if (typeof m?.index === 'number') {
+									console.log('re', re);
+									matchingEnchants = [
+										...matchingEnchants,
+										{
+											enchantText,
+											ids,
+											value,
+											order: m.index
+										}
+									];
+								}
+							} catch (e) {
+								console.log('e', e);
 							}
+							console.log('reString', reString);
 						});
 
 						matchingEnchants.sort((a, b) => a.order - b.order);
@@ -144,18 +159,48 @@
 					</thead>
 					<tbody>
 						{#each [...manualMatches, ...matchingEnchants] as e}
-							{@const thisEnchantSales = groupSalesByBase($enchantSalesStore, e.enchantText)}
+							{@const thisEnchantText = e.enchantText.replace('\\d{1,9}', e.value.toString())}
+							{@const thisEnchantSales = groupSalesByBase($enchantSalesStore, thisEnchantText)}
+							{@const statsQuery = [
+								{
+									type: 'count',
+									value: { min: 1 },
+									filters: e.ids.map((id) => ({
+										id,
+										value: {
+											min: e.value,
+											max: e.value
+										}
+									}))
+								}
+							]}
 							<tr>
-								<td class="px-1 border-default max-w-xs">{e.enchantText}</td>
+								<td class="px-1 border-default max-w-xs">{thisEnchantText}</td>
 								<td class="px-1 border-default"
-									><a href={getUniquesUrl(e.poeTradeUrl)} target="uniqueBase">Uniques</a></td
+									><a
+										href={getUniquesUrl(
+											'https://www.pathofexile.com/trade/search/Ancestor',
+											statsQuery
+										)}
+										target="uniqueBase">Uniques</a
+									></td
 								>
 								<td class="px-1 border-default"
-									><a href={getIlvl86Url(e.poeTradeUrl)} target="ilvl85Base">ilvl 85+</a></td
+									><a
+										href={getIlvl86Url(
+											'https://www.pathofexile.com/trade/search/Ancestor',
+											statsQuery
+										)}
+										target="ilvl85Base">ilvl 85+</a
+									></td
 								>
 								<td class="px-1 border-default"
-									><a href={getBlizzardCrownUrl(e.poeTradeUrl)} target="blizzardCrownBase"
-										>Blizzard Crown</a
+									><a
+										href={getBlizzardCrownUrl(
+											'https://www.pathofexile.com/trade/search/Ancestor',
+											statsQuery
+										)}
+										target="blizzardCrownBase">Blizzard Crown</a
 									></td
 								>
 								<td class="px-1 border-default"
@@ -226,7 +271,7 @@
 			{/if}
 		</div>
 	</details>
-	<p>Searching {enchants.length} enchants</p>
+	<p>Searching {$enchantDataStore.length} enchants</p>
 	<div class="max-w-prose">
 		<h2>Instructions</h2>
 		<p>
@@ -246,6 +291,7 @@
 		<details>
 			<summary>Debug</summary>
 			<pre>{text}</pre>
+			<pre>{text2}</pre>
 		</details>
 	{/if}
 </div>
