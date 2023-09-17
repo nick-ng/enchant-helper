@@ -7,10 +7,11 @@
 		<a class="button-default no-underline inline-block py-1" href="/">Search</a>
 		<a class="button-default no-underline inline-block py-1" href="/bases">Bases</a>
 		<a class="button-default no-underline inline-block py-1" href="/sales">Sales</a>
+		<a class="button-default no-underline inline-block py-1" href="/enchant-database">Database</a>
 		<a class="button-default no-underline inline-block py-1" href="/colour">Colour</a>
 		<a class="button-default no-underline inline-block py-1" href="/dev">Dev</a>
 	</nav>
-	<div>
+	<div class="pb-10">
 		<slot />
 	</div>
 	<div class="absolute w-full bottom-0 flex flex-row justify-center my-2">

@@ -3,7 +3,7 @@
 	import { enchantBaseSchema, enchantSaleSchema } from '$lib/schemas';
 	import { enchantBasesStore } from '$lib/stores/enchant-bases';
 	import { enchantSalesStore } from '$lib/stores/enchant-sales';
-	import { enchants } from '$lib/enchant-search/raw-enchant-data';
+	import { enchantDataStore } from '$lib/stores/enchant-data';
 	import { formatDateForInput, STORAGE_KEY_CHAOS_PER_DIVINE } from '$lib/enchant-search/utils';
 	import { onMount } from 'svelte';
 
@@ -30,9 +30,12 @@
 
 	$: dateSold = new Date(dateSoldInput).toISOString();
 	$: manualMatches = manualSearchString
-		? enchants
-				.filter(({ enchantText }) => {
-					return enchantText.toLowerCase().includes(manualSearchString.toLowerCase());
+		? $enchantDataStore
+				.filter(({ enchantText, value }) => {
+					return enchantText
+						.replace('\\d{1,9}', value.toString())
+						.toLowerCase()
+						.includes(manualSearchString.toLowerCase());
 				})
 				.sort((a, b) => a.enchantText.localeCompare(b.enchantText))
 		: [];
@@ -139,7 +142,11 @@
 				return;
 			}
 
-			if (!enchants.map((e) => e.enchantText).includes(enchantText)) {
+			if (
+				!$enchantDataStore
+					.map((e) => e.enchantText.replace('\\d{1,9}', e.value.toString()))
+					.includes(enchantText)
+			) {
 				alert('Please choose an enchant.');
 				return;
 			}
@@ -183,14 +190,15 @@
 						{#if manualSearchString !== enchantText}
 							<div class="absolute top-8 left-0 flex flex-col items-stretch border-subtle">
 								{#each manualMatches.slice(0, 10) as m}
+									{@const thisEnchantText = m.enchantText.replace('\\d{1,9}', m.value.toString())}
 									<label class="max-w-prose break-normal bg-gray-800 px-1 py-1">
 										<button
 											class="hover:bg-gray-700"
 											type="button"
 											on:click={() => {
-												enchantText = m.enchantText;
-												manualSearchString = m.enchantText;
-											}}>{m.enchantText}</button
+												enchantText = thisEnchantText;
+												manualSearchString = thisEnchantText;
+											}}>{thisEnchantText}</button
 										>
 									</label>
 								{/each}

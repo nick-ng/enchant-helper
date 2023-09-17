@@ -1,102 +1,30 @@
 import type { EnchantSale } from '$lib/schemas';
 
+import { getSearchUrl } from '$lib/utils';
+
 export const STORAGE_KEY_CHAOS_PER_DIVINE = 'PUX_CHAOS_PER_DIVINE';
 
-export const getUniquesUrl = (poeTradeUrl: string) => {
-	try {
-		const tradeUrlObject = new URL(poeTradeUrl);
-		const poeTradeQuery = tradeUrlObject.searchParams.get('q');
-
-		if (poeTradeQuery) {
-			const tempQuery = JSON.parse(poeTradeQuery);
-			const uniqueQueryObject = {
-				query: {
-					...tempQuery.query,
-					status: { option: 'online' },
-					filters: {
-						type_filters: { filters: { rarity: { option: 'unique' } } }
-					}
-				}
-			};
-
-			const uniqueUrlObject = new URL(poeTradeUrl);
-			const uniqueQuery = new URLSearchParams();
-			uniqueQuery.set('q', JSON.stringify(uniqueQueryObject));
-
-			uniqueUrlObject.search = uniqueQuery.toString();
-
-			return uniqueUrlObject.toString();
-		}
-
-		return poeTradeUrl;
-	} catch (_e) {
-		return poeTradeUrl;
-	}
+export const getUniquesUrl = (poeTradeUrl: string, stats: object) => {
+	return getSearchUrl(poeTradeUrl, stats, {
+		type_filters: { filters: { rarity: { option: 'unique' } } }
+	});
 };
 
-export const getIlvl86Url = (poeTradeUrl: string) => {
-	try {
-		const tradeUrlObject = new URL(poeTradeUrl);
-		const poeTradeQuery = tradeUrlObject.searchParams.get('q');
-
-		if (poeTradeQuery) {
-			const tempQuery = JSON.parse(poeTradeQuery);
-			const ilvl86QueryObject = {
-				query: {
-					...tempQuery.query,
-					status: { option: 'online' },
-					filters: {
-						misc_filters: { filters: { ilvl: { min: 85 } } }
-					}
-				}
-			};
-
-			const ilvl86UrlObject = new URL(poeTradeUrl);
-			const ilvl86Query = new URLSearchParams();
-			ilvl86Query.set('q', JSON.stringify(ilvl86QueryObject));
-
-			ilvl86UrlObject.search = ilvl86Query.toString();
-
-			return ilvl86UrlObject.toString();
-		}
-
-		return poeTradeUrl;
-	} catch (_e) {
-		return poeTradeUrl;
-	}
+export const getIlvl86Url = (poeTradeUrl: string, stats: object) => {
+	return getSearchUrl(poeTradeUrl, stats, {
+		misc_filters: { filters: { ilvl: { min: 85 } } }
+	});
 };
 
-export const getBlizzardCrownUrl = (poeTradeUrl: string) => {
-	try {
-		const tradeUrlObject = new URL(poeTradeUrl);
-		const poeTradeQuery = tradeUrlObject.searchParams.get('q');
-
-		if (poeTradeQuery) {
-			const tempQuery = JSON.parse(poeTradeQuery);
-			const blizzardCrownQueryObject = {
-				query: {
-					...tempQuery.query,
-					status: { option: 'online' },
-					type: 'Blizzard Crown',
-					filters: {
-						misc_filters: { filters: { ilvl: { min: 83 } } }
-					}
-				}
-			};
-
-			const blizzardCrownUrlObject = new URL(poeTradeUrl);
-			const blizzardCrownQuery = new URLSearchParams();
-			blizzardCrownQuery.set('q', JSON.stringify(blizzardCrownQueryObject));
-
-			blizzardCrownUrlObject.search = blizzardCrownQuery.toString();
-
-			return blizzardCrownUrlObject.toString();
-		}
-
-		return poeTradeUrl;
-	} catch (_e) {
-		return poeTradeUrl;
-	}
+export const getBlizzardCrownUrl = (poeTradeUrl: string, stats: object) => {
+	return getSearchUrl(
+		poeTradeUrl,
+		stats,
+		{
+			misc_filters: { filters: { ilvl: { min: 83 } } }
+		},
+		'Blizzard Crown'
+	);
 };
 
 export const groupSalesByBase = (
