@@ -16,6 +16,7 @@
 
 <div>
 	<h1>Enchant Database</h1>
+	<p>Don't change anything on this page unless you know what is going on.</p>
 	<a
 		class="inline-block button-default no-underline text-white"
 		href={`data:text/json;charset=utf-8,${JSON.stringify($enchantDataStore)}`}
