@@ -86,7 +86,7 @@
 				/>
 			</label>
 			<label>
-				<div>Background Alpha - {backgroundAlpha}</div>
+				<div>Background Alpha: {backgroundAlpha}</div>
 				<input type="range" min={0} max={255} step={1} bind:value={backgroundAlpha} />
 			</label>
 		</div>
@@ -107,7 +107,7 @@
 				/>
 			</label>
 			<label>
-				<div>Border Alpha - {borderAlpha}</div>
+				<div>Border Alpha: {borderAlpha}</div>
 				<input type="range" min={0} max={255} step={1} bind:value={borderAlpha} />
 			</label>
 		</div>
@@ -128,7 +128,7 @@
 				/>
 			</label>
 			<label>
-				<div>Text Alpha - {textAlpha}</div>
+				<div>Text Alpha: {textAlpha}</div>
 				<input type="range" min={0} max={255} step={1} bind:value={textAlpha} />
 			</label>
 		</div>
@@ -170,7 +170,9 @@
 						borderB = Math.min(parseInt(tempB, 10), 255);
 						borderAlpha = typeof tempA === 'string' ? Math.min(parseInt(tempA, 10), 255) : 255;
 						borderString = `SetBorderColor ${borderR} ${borderG} ${borderB} ${borderAlpha}`;
-						borderHex = `#${borderR.toString(16)}${borderG.toString(16)}${borderB.toString(16)}`;
+						borderHex = `#${borderR.toString(16).padStart(2, '0')}${borderG
+							.toString(16)
+							.padStart(2, '0')}${borderB.toString(16).padStart(2, '0')}`;
 					} else if (line.startsWith('SetBackgroundColor')) {
 						if (hasBackground) {
 							lines[i] = '';
@@ -189,10 +191,13 @@
 						backgroundG = Math.min(parseInt(tempG, 10), 255);
 						backgroundB = Math.min(parseInt(tempB, 10), 255);
 						backgroundAlpha = typeof tempA === 'string' ? Math.min(parseInt(tempA, 10), 255) : 255;
-						backgroundString = `SetBorderColor ${backgroundR} ${backgroundG} ${backgroundB} ${backgroundAlpha}`;
-						backgroundHex = `#${backgroundR.toString(16)}${backgroundG.toString(
-							16
-						)}${backgroundB.toString(16)}`;
+
+						console.log('bg', backgroundR, backgroundG, backgroundB);
+
+						backgroundString = `SetBackgroundColor ${backgroundR} ${backgroundG} ${backgroundB} ${backgroundAlpha}`;
+						backgroundHex = `#${backgroundR.toString(16).padStart(2, '0')}${backgroundG
+							.toString(16)
+							.padStart(2, '0')}${backgroundB.toString(16).padStart(2, '0')}`;
 					} else if (line.startsWith('SetTextColor')) {
 						if (hasText) {
 							lines[i] = '';
@@ -211,8 +216,10 @@
 						textG = Math.min(parseInt(tempG, 10), 255);
 						textB = Math.min(parseInt(tempB, 10), 255);
 						textAlpha = typeof tempA === 'string' ? Math.min(parseInt(tempA, 10), 255) : 255;
-						textString = `SetBorderColor ${textR} ${textG} ${textB} ${textAlpha}`;
-						textHex = `#${textR.toString(16)}${textG.toString(16)}${textB.toString(16)}`;
+						textString = `SetTextColor ${textR} ${textG} ${textB} ${textAlpha}`;
+						textHex = `#${textR.toString(16).padStart(2, '0')}${textG
+							.toString(16)
+							.padStart(2, '0')}${textB.toString(16).padStart(2, '0')}`;
 					} else {
 						lines[i] = '';
 					}
@@ -255,4 +262,12 @@
 			<ItemDrop {borderAlpha} {borderHex} {backgroundAlpha} {backgroundHex} {textAlpha} {textHex} />
 		</div>
 	</div>
+	<details>
+		<summary>Debug</summary>
+		<div>
+			<div>backgroundHex: <span>{backgroundHex}</span></div>
+			<div>borderHex: <span>{borderHex}</span></div>
+			<div>textHex: <span>{textHex}</span></div>
+		</div>
+	</details>
 </div>
