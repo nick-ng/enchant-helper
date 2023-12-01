@@ -1,0 +1,1 @@
+import{w as t}from"./index.0daf2fd4.js";import{j as r,z as o,a as n}from"./schemas.3f2493ca.js";const e="PUX_ENCHANT_BASES";let s=[{name:"",tradeLink:"",imageUrl:""}];{const a=r(o.array(n),localStorage.getItem(e));a.success&&(s=a.data)}const c=t(s);c.subscribe(a=>{localStorage.setItem(e,JSON.stringify(a))});export{c as e};
